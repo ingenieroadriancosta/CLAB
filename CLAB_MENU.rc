@@ -1,0 +1,531 @@
+WMenuMain MENUEX
+BEGIN
+POPUP "&Archivo"
+    BEGIN
+        /*
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar gráfica\a Ctrl + G", ID_SAVE_IMAGE
+        //*/
+        MENUITEM "&Abrir archivo de restauración\a Ctrl + A", ID_OPEN_F_REST
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar archivo de restauración\a Ctrl + G", ID_SAVE_F_REST
+
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar datos de aplicación\a Ctrl + S", ID_SAVE_DATA
+
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar datos de en archivo .mat\a Ctrl + Alt + S", ID_SAVE_MAT
+
+        MENUITEM SEPARATOR
+        POPUP "&Archivos complementarios"
+        BEGIN
+            MENUITEM "&Guardar FIRMWARE PIC16F887(ADRIAN)\a Ctrl + Alt + D", ID_FILES_FIRM_887
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F887(ADRIAN)", ID_FILES_SCHTAD_NEW_887
+            /*
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar FIRMWARE PIC16F877A(Descontinuado)", ID_FILES_FIRM
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F877A(Ing. Darwin)(Descontinuado)", ID_FILES_SCHTAD
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F877A(ADRIAN)(Descontinuado)", ID_FILES_SCHTAD_NEW
+            //*/
+            ///
+            ///
+            ///
+            ///
+            ///
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar FIRMWARE PIC16F690(ADRIAN)\a", ID_FILES_FIRM_690
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F690(ADRIAN)", ID_FILES_SCH_690
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            ///
+            ///
+            ///
+            ///
+            ///
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar Driver  PL2303\a", ID_FILES_PLDRV
+
+
+
+
+        END
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir\aCtrl + Q", ID_SALIR
+
+    END
+
+
+POPUP "&Vista"
+BEGIN
+    POPUP "&Grilla"
+    BEGIN
+        MENUITEM "&Activar grilla\a Ctrl + R", ID_GRID_ON
+        MENUITEM SEPARATOR
+        MENUITEM "&Estilo 1\a Ctrl + Alt + H", ID_GRID_STYLE0
+        MENUITEM SEPARATOR
+        MENUITEM "&Estilo 2\a Ctrl + Alt + J", ID_GRID_STYLE1
+        MENUITEM SEPARATOR
+        MENUITEM "&Estilo 3\a Ctrl + Alt + K", ID_GRID_STYLE2
+        MENUITEM SEPARATOR
+        MENUITEM "&Estilo 4\a Ctrl + Alt + L", ID_GRID_STYLE3
+    END
+    MENUITEM SEPARATOR
+    POPUP "&Grosor de linea"
+    BEGIN
+        MENUITEM "&1\a Ctrl + H", ID_LINE_WIDTH1
+        MENUITEM SEPARATOR
+        MENUITEM "&2\a Ctrl + J", ID_LINE_WIDTH2
+        MENUITEM SEPARATOR
+        MENUITEM "&3\a Ctrl + K", ID_LINE_WIDTH3
+        MENUITEM SEPARATOR
+        MENUITEM "&4\a Ctrl + L", ID_LINE_WIDTH4
+    END
+
+    MENUITEM SEPARATOR
+    POPUP "&Cursor"
+    BEGIN
+        MENUITEM "&Activar/Desactivar todos\a Ctrl + Alt + A", ID_DAT_CUR_ONO
+        MENUITEM SEPARATOR
+        MENUITEM "&Entrada 1 ", ID_DATA_CURSOR0
+        MENUITEM SEPARATOR
+        MENUITEM "&Salida  1 ", ID_DATA_CURSOR1
+        MENUITEM SEPARATOR
+        MENUITEM "&Entrada 2 ", ID_DATA_CURSOR2
+        MENUITEM SEPARATOR
+        MENUITEM "Salida   2 ", ID_DATA_CURSOR3
+    END
+
+    MENUITEM SEPARATOR
+    MENUITEM "&Dividir gráfica\aCtrl + D", ID_DIV_GRAPH
+
+    MENUITEM SEPARATOR
+    MENUITEM "&Invertir rejilla\aCtrl + I", ID_INVERTIDO
+    MENUITEM SEPARATOR
+    MENUITEM "&Reestablecer grafica\aCtrl + Alt + R", ID_RESET_ALL
+    MENUITEM SEPARATOR
+    MENUITEM "&Siempre visible\aCtrl + T", ID_ON_TOP
+    MENUITEM SEPARATOR
+    MENUITEM "&Activar transparencia\aCtrl + Alt + T", ID_ACT_TRANSP
+END
+
+
+
+
+
+POPUP "&Herramientas"
+BEGIN
+    MENUITEM "&Copiar datos al portapapeles\aCtrl + Alt + I", ID_COPY2CLIPBOARD
+    MENUITEM SEPARATOR
+    MENUITEM "&Borrar los datos de la adquisición\aCtrl + Alt + C", ID_CLEAR_ALL
+    MENUITEM SEPARATOR
+    POPUP "&Amplitudes máximas I/O"
+    BEGIN
+         MENUITEM "&Entrada canal 1\aCtrl + 1", ID_AMP_0
+
+         MENUITEM SEPARATOR
+         MENUITEM "&Salida canal 1\aCtrl + 2", ID_AMP_1
+
+         MENUITEM SEPARATOR
+         MENUITEM "&Entrada canal 2\aCtrl + 3", ID_AMP_2
+
+         MENUITEM SEPARATOR
+         MENUITEM "&Salida canal 2\aCtrl + 4", ID_AMP_3
+    END
+    MENUITEM SEPARATOR
+    MENUITEM "&JMathLib 0.9.4", ID_CALL_CALCULADORA
+
+
+
+    MENUITEM SEPARATOR
+    MENUITEM "&Abrir carpeta de trabajo\aCtrl + Alt + W", ID_OPEN_WORK_DIR
+    // jmathlib.core.constants
+END
+
+
+POPUP "&Ayuda"
+    BEGIN
+        MENUITEM "&Consultar puertos existentes\a Ctrl + B", ID_AVPORTS
+        /*
+        MENUITEM SEPARATOR
+        MENUITEM "&Ayuda\a Ctrl + H", ID_HELP
+        //*/
+        MENUITEM SEPARATOR
+        MENUITEM "& W L A B ", ID_WLAB
+        MENUITEM SEPARATOR
+        MENUITEM "&Acerca de CLAB\a", ID_ABOUT
+    END
+
+
+/*
+MENUITEM SEPARATOR
+MENUITEM SEPARATOR
+POPUP "&Pruebas", ID_PRUEBAS
+    BEGIN
+    END
+//*/
+END
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+WMenuPop MENUEX
+BEGIN
+	POPUP "&Menu All"
+	BEGIN
+		POPUP "&Archivo"
+		BEGIN
+			/*
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar gráfica\a Ctrl + G", ID_SAVE_IMAGE
+        //*/
+        MENUITEM "&Abrir archivo de restauración\a Ctrl + A", ID_OPEN_F_REST
+
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar archivo de restauración\a Ctrl + G", ID_SAVE_F_REST
+
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar datos de aplicación\a Ctrl + S", ID_SAVE_DATA
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Guardar datos de en archivo .mat\a Ctrl + Alt + S", ID_SAVE_MAT
+
+        MENUITEM SEPARATOR
+        POPUP "&complementarios"
+        BEGIN
+
+            MENUITEM "&Guardar FIRMWARE PIC16F887(ADRIAN)\a Ctrl + Alt + D", ID_FILES_FIRM_887
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F887(ADRIAN)", ID_FILES_SCHTAD_NEW_887
+            /*
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar FIRMWARE PIC16F877A(Descontinuado)", ID_FILES_FIRM
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F877A(Ing. Darwin)(Descontinuado)", ID_FILES_SCHTAD
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F877A(ADRIAN)(Descontinuado)", ID_FILES_SCHTAD_NEW
+            //*/
+            ///
+            ///
+            ///
+            ///
+            ///
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar FIRMWARE PIC16F690(ADRIAN)\a", ID_FILES_FIRM_690
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F690(ADRIAN)", ID_FILES_SCH_690
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            ///
+            ///
+            ///
+            ///
+            ///
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar Driver  PL2303\a", ID_FILES_PLDRV
+        END
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Salir\aCtrl + Q", ID_SALIR
+
+		END
+		MENUITEM SEPARATOR
+		POPUP "&Vista"
+		BEGIN
+			POPUP "&Grilla"
+			BEGIN
+				MENUITEM "&Activar grilla\a Ctrl + R", ID_GRID_ON
+				MENUITEM SEPARATOR
+				MENUITEM "&Estilo 1\a Ctrl + Alt + H", ID_GRID_STYLE0
+				MENUITEM SEPARATOR
+				MENUITEM "&Estilo 2\a Ctrl + Alt + J", ID_GRID_STYLE1
+				MENUITEM SEPARATOR
+				MENUITEM "&Estilo 3\a Ctrl + Alt + K", ID_GRID_STYLE2
+				MENUITEM SEPARATOR
+				MENUITEM "&Estilo 4\a Ctrl + Alt + L", ID_GRID_STYLE3
+			END
+			MENUITEM SEPARATOR
+			POPUP "&Grosor de linea"
+			BEGIN
+				MENUITEM "&1\a Ctrl + H", ID_LINE_WIDTH1
+				MENUITEM SEPARATOR
+				MENUITEM "&2\a Ctrl + J", ID_LINE_WIDTH2
+				MENUITEM SEPARATOR
+				MENUITEM "&3\a Ctrl + K", ID_LINE_WIDTH3
+				MENUITEM SEPARATOR
+				MENUITEM "&4\a Ctrl + L", ID_LINE_WIDTH4
+			END
+
+
+            MENUITEM SEPARATOR
+            POPUP "&Cursor"
+            BEGIN
+                MENUITEM "&Activar/Desactivar todos\a Ctrl + Alt + A", ID_DAT_CUR_ONO
+                MENUITEM SEPARATOR
+                MENUITEM "&Entrada 1 ", ID_DATA_CURSOR0
+                MENUITEM SEPARATOR
+                MENUITEM "&Salida  1 ", ID_DATA_CURSOR1
+                MENUITEM SEPARATOR
+                MENUITEM "&Entrada 2 ", ID_DATA_CURSOR2
+                MENUITEM SEPARATOR
+                MENUITEM "Salida   2 ", ID_DATA_CURSOR3
+            END
+
+
+            MENUITEM SEPARATOR
+            MENUITEM "&Dividir gráfica\aCtrl + D", ID_DIV_GRAPH
+
+
+			MENUITEM SEPARATOR
+			MENUITEM "&Invertir rejilla\aCtrl + I", ID_INVERTIDO
+			MENUITEM SEPARATOR
+
+            MENUITEM "&Reestablecer grafica\aCtrl + Alt + R", ID_RESET_ALL
+            MENUITEM SEPARATOR
+
+			MENUITEM "&Siempre visible\aCtrl + T", ID_ON_TOP
+            MENUITEM SEPARATOR
+            MENUITEM "&Activar transparencia\aCtrl + Alt + T", ID_ACT_TRANSP
+		END
+
+
+
+
+
+		MENUITEM SEPARATOR
+
+POPUP "&Herramientas"
+BEGIN
+    MENUITEM "&Copiar datos al portapapeles\aCtrl + Alt + I", ID_COPY2CLIPBOARD
+    MENUITEM SEPARATOR
+    MENUITEM "&Borrar los datos de la adquisición\aCtrl + Alt + C", ID_CLEAR_ALL
+    MENUITEM SEPARATOR
+    POPUP "&Amplitudes máximas I/O"
+    BEGIN
+         MENUITEM "&Entrada canal 1\aCtrl + 1", ID_AMP_0
+
+         MENUITEM SEPARATOR
+         MENUITEM "&Salida canal 1\aCtrl + 2", ID_AMP_1
+
+         MENUITEM SEPARATOR
+         MENUITEM "&Entrada canal 2\aCtrl + 3", ID_AMP_2
+
+         MENUITEM SEPARATOR
+         MENUITEM "&Salida canal 2\aCtrl + 4", ID_AMP_3
+    END
+    MENUITEM SEPARATOR
+    MENUITEM "&JMathLib 0.9.4", ID_CALL_CALCULADORA
+END
+
+
+
+
+
+		MENUITEM SEPARATOR
+		POPUP "&Ayuda"
+		BEGIN
+			MENUITEM "&Consultar puertos existentes\a Ctrl + B", ID_AVPORTS
+
+            /*
+            MENUITEM SEPARATOR
+			MENUITEM "&Ayuda\a Ctrl + H", ID_HELP
+			//*/
+        MENUITEM SEPARATOR
+        MENUITEM "& W L A B ", ID_WLAB
+			MENUITEM SEPARATOR
+			MENUITEM "&Acerca de CLAB\a", ID_ABOUT
+		END
+
+
+
+	END
+END
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+WMenuPop_DataC0 MENUEX
+BEGIN
+	POPUP "&Menu All"
+	BEGIN
+		MENUITEM "&Activar/Desactivar todos\a Ctrl + Alt + A", ID_DAT_CUR_ONO
+		MENUITEM SEPARATOR
+		MENUITEM "&Entrada 1 ", ID_DATA_CURSOR0
+	END
+END
+/////////////
+WMenuPop_DataC1 MENUEX
+BEGIN
+	POPUP "&Menu All"
+	BEGIN
+		MENUITEM "&Activar/Desactivar todos\a Ctrl + Alt + A", ID_DAT_CUR_ONO
+		MENUITEM SEPARATOR
+		MENUITEM "&Salida 1 ", ID_DATA_CURSOR1
+	END
+END
+/////////////
+WMenuPop_DataC2 MENUEX
+BEGIN
+	POPUP "&Menu All"
+	BEGIN
+		MENUITEM "&Activar/Desactivar todos\a Ctrl + Alt + A", ID_DAT_CUR_ONO
+		MENUITEM SEPARATOR
+		MENUITEM "&Entrada 2 ", ID_DATA_CURSOR2
+	END
+END
+WMenuPop_DataC3 MENUEX
+BEGIN
+	POPUP "&Menu All"
+	BEGIN
+		MENUITEM "&Activar/Desactivar todos\a Ctrl + Alt + A", ID_DAT_CUR_ONO
+		MENUITEM SEPARATOR
+		MENUITEM "&Salida 2 ", ID_DATA_CURSOR3
+	END
+END
+/////////////
+/////////////
+/////////////
+WMenuPop_FCOMP MENUEX
+BEGIN
+    POPUP "&Archivos TAD C1"
+    BEGIN
+
+            MENUITEM "&Guardar FIRMWARE PIC16F887(ADRIAN)\a Ctrl + Alt + D", ID_FILES_FIRM_887
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F887(ADRIAN)", ID_FILES_SCHTAD_NEW_887
+            /*
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar FIRMWARE PIC16F877A(Descontinuado)", ID_FILES_FIRM
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F877A(Ing. Darwin)(Descontinuado)", ID_FILES_SCHTAD
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F877A(ADRIAN)(Descontinuado)", ID_FILES_SCHTAD_NEW
+            //*/
+            ///
+            ///
+            ///
+            ///
+            ///
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar FIRMWARE PIC16F690(ADRIAN)\a", ID_FILES_FIRM_690
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar esquema TAD PIC16F690(ADRIAN)", ID_FILES_SCH_690
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            MENUITEM SEPARATOR
+            ///
+            ///
+            ///
+            ///
+            ///
+            MENUITEM SEPARATOR
+            MENUITEM "&Guardar Driver  PL2303\a", ID_FILES_PLDRV
+
+    END
+END
+
+
+/////////////
+/////////////
+/////////////
+WMenuPop_EPSEL1 MENUEX
+BEGIN
+    POPUP "&Error de posición relativa "
+    BEGIN
+        MENUITEM "&Error de la entrada 1 relativo a la Salida 1", ID_SET_EP11
+        MENUITEM SEPARATOR
+        MENUITEM "&Error de la entrada 1 relativo a la Salida 2", ID_SET_EP12
+    END
+END
+/////////////
+/////////////
+/////////////
+WMenuPop_EPSEL2 MENUEX
+BEGIN
+    POPUP "&Error de posición relativa "
+    BEGIN
+        MENUITEM "&Error de la entrada 2 relativo a la Salida 2", ID_SET_EP22
+        MENUITEM SEPARATOR
+        MENUITEM "&Error de la entrada 2 relativo a la Salida 1", ID_SET_EP21
+    END
+END
+
+
+
+
+
+
+
+
+

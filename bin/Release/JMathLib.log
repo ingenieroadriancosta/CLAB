@@ -1,0 +1,1223 @@
+FunctionToken result = 1
+Expression: store ans 1
+Variable assign 1
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function plot
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser: operand: 1
+   Parser return: 1
+   Parser delimiter break ,
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current ,
+  Parser: function parse Parameter 2
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser: operand: 1
+   Parser return: 1
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: plot(1,1)
+ Parser: display true plot(1,1)
+Parser parseCommandList end
+Expression: evaluate plot(1,1)
+Expression: child: plot(1,1)
+FunctionToken: eval plot
+searching for plot
+searching for plot
+FunctionToken eval = plot
+NumberToken: eval
+NumberToken: eval
+plot evaluate
+plot: types: r    
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+GraphicsManager: addFigure: 1
+GraphicsManager: createNewFigure: 1
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+FunctionToken result = null
+Interpreter: done
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function lot
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+  Parser parseArithmeticExpr end 
+ Parser return: lot()
+ Parser: display true lot()
+Parser parseCommandList end
+Expression: evaluate lot()
+Expression: child: lot()
+FunctionToken: eval lot
+searching for lot
+searching for lot
+??? lot()
+ERROR: FunctionToken: undefinded variable or function lot
+Variable assign ERROR: FunctionToken: undefinded variable or function lot
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function plot
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser: operand: 1
+   Parser return: 1
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: plot(1)
+ Parser: display true plot(1)
+Parser parseCommandList end
+Expression: evaluate plot(1)
+Expression: child: plot(1)
+FunctionToken: eval plot
+searching for plot
+searching for plot
+FunctionToken eval = plot
+NumberToken: eval
+plot evaluate
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+GraphicsManager: addFigure: 1
+GraphicsManager: createNewFigure: 1
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+FunctionToken result = null
+Interpreter: done
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+AxesObject: paint
+finalizing handle: -3
+finalizing handle: -2
+finalizing handle: -4
+doXGrid xticks.length 5
+x=1.0 y=1.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+  Parser: VariableToken: clc
+ Parser return: clc
+ Parser: display true clc
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: =
+  PARSER  op+op: 1
+  Parser: <x> = <y>
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser: operand: 1
+   Parser return: 1
+   Parser parseSingle
+    PARSER  op+op: :
+    PARSER  op+op: 10
+    Parser: <x> : <y>
+    Parser parseArithmeticExpr begin
+     Parser parseSingle
+      Parser: operand: 10
+     Parser return: 10
+    Parser parseArithmeticExpr end 
+    Parser: colon: 1:10
+   Parser return: root object
+  Parser parseArithmeticExpr end 
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+Expression: evaluate root object
+Expression: child: 1
+NumberToken: eval
+Expression: child: 10
+NumberToken: eval
+ColonOperator: x1,dx,x2 1.0 1.0 10.0
+AssignmentOperatorToken: eval
+AssignmentOpTok: eval: op is VariableToken
+AssignmentOpTok: variable is null
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+Variable assign  [1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ,  9 ,  10]
+
+AssignmentOperatorToken: displayResult
+NumberToken: toString(globals)
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function plot
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: plot(a)
+ Parser: display true plot(a)
+Parser parseCommandList end
+Expression: evaluate plot(a)
+Expression: child: plot(a)
+FunctionToken: eval plot
+searching for plot
+searching for plot
+FunctionToken eval = plot
+VariableToken: eval: a
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+VariableToken data =  [1.0000 ,  2.0000 ,  3.0000 ,  4.0000 ,  5.0000 ,  6.0000 ,  7.0000 ,  8.0000 ,  9.0000 ,  10.0000]
+
+plot evaluate
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+GraphicsManager: addFigure: 1
+GraphicsManager: createNewFigure: 1
+ColormapProperty: finished
+ColormapProperty: finished
+ColormapProperty: finished
+FunctionToken result = null
+Interpreter: done
+AxesObject: paint
+finalizing handle: -7
+finalizing handle: -6
+doXGrid xticks.length 5
+finalizing handle: -5
+x=1.0 y=1.0
+x=2.0 y=2.0
+x=3.0 y=3.0
+x=4.0 y=4.0
+x=5.0 y=5.0
+x=6.0 y=6.0
+x=7.0 y=7.0
+x=8.0 y=8.0
+x=9.0 y=9.0
+x=10.0 y=10.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+x=2.0 y=2.0
+x=3.0 y=3.0
+x=4.0 y=4.0
+x=5.0 y=5.0
+x=6.0 y=6.0
+x=7.0 y=7.0
+x=8.0 y=8.0
+x=9.0 y=9.0
+x=10.0 y=10.0
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+x=2.0 y=2.0
+x=3.0 y=3.0
+x=4.0 y=4.0
+x=5.0 y=5.0
+x=6.0 y=6.0
+x=7.0 y=7.0
+x=8.0 y=8.0
+x=9.0 y=9.0
+x=10.0 y=10.0
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+x=2.0 y=2.0
+x=3.0 y=3.0
+x=4.0 y=4.0
+x=5.0 y=5.0
+x=6.0 y=6.0
+x=7.0 y=7.0
+x=8.0 y=8.0
+x=9.0 y=9.0
+x=10.0 y=10.0
+FigureOb: update
+AxesObject: paint
+doXGrid xticks.length 5
+x=1.0 y=1.0
+x=2.0 y=2.0
+x=3.0 y=3.0
+x=4.0 y=4.0
+x=5.0 y=5.0
+x=6.0 y=6.0
+x=7.0 y=7.0
+x=8.0 y=8.0
+x=9.0 y=9.0
+x=10.0 y=10.0
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp finish
+  Parser: VariableToken: finish
+ Parser return: finish
+ Parser: display true finish
+Parser parseCommandList end
+Expression: evaluate finish
+Expression: child: finish
+VariableToken: eval: finish
+VariableToken: var finish not found: check functions
+FunctionToken: eval finish
+searching for finish
+searching for finish
+MFileLoader: loading >finish.m<
+MFileLoader: code: begin 
+/********************************************************
+* File: finish.m                                        * 
+* This file is executed upon each exit of JMathLib.		*  
+*********************************************************/
+
+code end
+FunctionParser: parseFunction
+FuntionParser: m-script file
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+MFileLoader: finished loading >finish.m<
+FunctionToken eval = finish
+FunctionToken result = null
+Interpreter: done
+FunctionToken result = 1
+Expression: store ans 1
+Variable assign 1
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: =
+  PARSER  op+op: o
+  Parser: <x> = <y>
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp o
+    Parser: VariableToken: o
+   Parser return: o
+   Parser parseSingle
+    PARSER  op+op: :
+    PARSER  op+op: 19
+    Parser: <x> : <y>
+    Parser parseArithmeticExpr begin
+     Parser parseSingle
+      Parser: operand: 19
+     Parser return: 19
+    Parser parseArithmeticExpr end 
+    Parser: colon: o:19
+   Parser return: root object
+  Parser parseArithmeticExpr end 
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+Expression: evaluate root object
+Expression: child: o
+VariableToken: eval: o
+VariableToken: var o not found: check functions
+FunctionToken: eval o
+searching for o
+searching for o
+??? a = o:19
+ERROR: FunctionToken: undefinded variable or function o
+Variable assign ERROR: FunctionToken: undefinded variable or function o
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: =
+  PARSER  op+op: 0
+  Parser: <x> = <y>
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser: operand: 0
+   Parser return: 0
+   Parser parseSingle
+    PARSER  op+op: :
+    PARSER  op+op: 19
+    Parser: <x> : <y>
+    Parser parseArithmeticExpr begin
+     Parser parseSingle
+      Parser: operand: 19
+     Parser return: 19
+    Parser parseArithmeticExpr end 
+    Parser: colon: 0:19
+   Parser return: root object
+  Parser parseArithmeticExpr end 
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+Expression: evaluate root object
+Expression: child: 0
+NumberToken: eval
+Expression: child: 19
+NumberToken: eval
+ColonOperator: x1,dx,x2 0.0 1.0 19.0
+AssignmentOperatorToken: eval
+AssignmentOpTok: eval: op is VariableToken
+AssignmentOpTok: variable is null
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+Variable assign  [0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,  8 ,  9 ,  10 ,  11 ,  12 ,  13 ,  14 ,  15 ,  16 ,  17 ,  18 ,  19]
+
+AssignmentOperatorToken: displayResult
+NumberToken: toString(globals)
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser: display true a
+Parser parseCommandList end
+Expression: evaluate a
+Expression: child: a
+VariableToken: eval: a
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+VariableToken data =  [0.0000 ,  1.0000 ,  2.0000 ,  3.0000 ,  4.0000 ,  5.0000 ,  6.0000 ,  7.0000 ,  8.0000 ,  9.0000 ,  10.0000 ,  11.0000 ,  12.0000 ,  13.0000 ,  14.0000 ,  15.0000 ,  16.0000 ,  17.0000 ,  18.0000 ,  19.0000]
+
+NumberToken: toString(globals)
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+Expression: store ans  [0.0000 ,  1.0000 ,  2.0000 ,  3.0000 ,  4.0000 ,  5.0000 ,  6.0000 ,  7.0000 ,  8.0000 ,  9.0000 ,  10.0000 ,  11.0000 ,  12.0000 ,  13.0000 ,  14.0000 ,  15.0000 ,  16.0000 ,  17.0000 ,  18.0000 ,  19.0000]
+
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+Variable assign  [0.0000 ,  1.0000 ,  2.0000 ,  3.0000 ,  4.0000 ,  5.0000 ,  6.0000 ,  7.0000 ,  8.0000 ,  9.0000 ,  10.0000 ,  11.0000 ,  12.0000 ,  13.0000 ,  14.0000 ,  15.0000 ,  16.0000 ,  17.0000 ,  18.0000 ,  19.0000]
+
+NumberToken: toString(globals)
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: '
+  PARSER  op+op: null
+  Parser: unary operator '
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+Expression: child: a
+VariableToken: eval: a
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+VariableToken data =  [0.0000 ,  1.0000 ,  2.0000 ,  3.0000 ,  4.0000 ,  5.0000 ,  6.0000 ,  7.0000 ,  8.0000 ,  9.0000 ,  10.0000 ,  11.0000 ,  12.0000 ,  13.0000 ,  14.0000 ,  15.0000 ,  16.0000 ,  17.0000 ,  18.0000 ,  19.0000]
+
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 1 0 
+NumberToken: index2n: index: 2 0 
+NumberToken: index2n: index: 3 0 
+NumberToken: index2n: index: 4 0 
+NumberToken: index2n: index: 5 0 
+NumberToken: index2n: index: 6 0 
+NumberToken: index2n: index: 7 0 
+NumberToken: index2n: index: 8 0 
+NumberToken: index2n: index: 9 0 
+NumberToken: index2n: index: 10 0 
+NumberToken: index2n: index: 11 0 
+NumberToken: index2n: index: 12 0 
+NumberToken: index2n: index: 13 0 
+NumberToken: index2n: index: 14 0 
+NumberToken: index2n: index: 15 0 
+NumberToken: index2n: index: 16 0 
+NumberToken: index2n: index: 17 0 
+NumberToken: index2n: index: 18 0 
+NumberToken: index2n: index: 19 0 
+Expression: store ans  [0]
+ [1]
+ [2]
+ [3]
+ [4]
+ [5]
+ [6]
+ [7]
+ [8]
+ [9]
+ [10]
+ [11]
+ [12]
+ [13]
+ [14]
+ [15]
+ [16]
+ [17]
+ [18]
+ [19]
+
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 1 0 
+NumberToken: index2n: index: 2 0 
+NumberToken: index2n: index: 3 0 
+NumberToken: index2n: index: 4 0 
+NumberToken: index2n: index: 5 0 
+NumberToken: index2n: index: 6 0 
+NumberToken: index2n: index: 7 0 
+NumberToken: index2n: index: 8 0 
+NumberToken: index2n: index: 9 0 
+NumberToken: index2n: index: 10 0 
+NumberToken: index2n: index: 11 0 
+NumberToken: index2n: index: 12 0 
+NumberToken: index2n: index: 13 0 
+NumberToken: index2n: index: 14 0 
+NumberToken: index2n: index: 15 0 
+NumberToken: index2n: index: 16 0 
+NumberToken: index2n: index: 17 0 
+NumberToken: index2n: index: 18 0 
+NumberToken: index2n: index: 19 0 
+Variable assign  [0]
+ [1]
+ [2]
+ [3]
+ [4]
+ [5]
+ [6]
+ [7]
+ [8]
+ [9]
+ [10]
+ [11]
+ [12]
+ [13]
+ [14]
+ [15]
+ [16]
+ [17]
+ [18]
+ [19]
+
+NumberToken: toString(globals)
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 1 0 
+NumberToken: index2n: index: 2 0 
+NumberToken: index2n: index: 3 0 
+NumberToken: index2n: index: 4 0 
+NumberToken: index2n: index: 5 0 
+NumberToken: index2n: index: 6 0 
+NumberToken: index2n: index: 7 0 
+NumberToken: index2n: index: 8 0 
+NumberToken: index2n: index: 9 0 
+NumberToken: index2n: index: 10 0 
+NumberToken: index2n: index: 11 0 
+NumberToken: index2n: index: 12 0 
+NumberToken: index2n: index: 13 0 
+NumberToken: index2n: index: 14 0 
+NumberToken: index2n: index: 15 0 
+NumberToken: index2n: index: 16 0 
+NumberToken: index2n: index: 17 0 
+NumberToken: index2n: index: 18 0 
+NumberToken: index2n: index: 19 0 
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+  Parser: VariableToken: clc
+ Parser return: clc
+ Parser: display true clc
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: '
+  PARSER  op+op: null
+  Parser: unary operator '
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+Expression: child: a
+VariableToken: eval: a
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 0 1 
+NumberToken: index2n: index: 0 2 
+NumberToken: index2n: index: 0 3 
+NumberToken: index2n: index: 0 4 
+NumberToken: index2n: index: 0 5 
+NumberToken: index2n: index: 0 6 
+NumberToken: index2n: index: 0 7 
+NumberToken: index2n: index: 0 8 
+NumberToken: index2n: index: 0 9 
+NumberToken: index2n: index: 0 10 
+NumberToken: index2n: index: 0 11 
+NumberToken: index2n: index: 0 12 
+NumberToken: index2n: index: 0 13 
+NumberToken: index2n: index: 0 14 
+NumberToken: index2n: index: 0 15 
+NumberToken: index2n: index: 0 16 
+NumberToken: index2n: index: 0 17 
+NumberToken: index2n: index: 0 18 
+NumberToken: index2n: index: 0 19 
+VariableToken data =  [0.0000 ,  1.0000 ,  2.0000 ,  3.0000 ,  4.0000 ,  5.0000 ,  6.0000 ,  7.0000 ,  8.0000 ,  9.0000 ,  10.0000 ,  11.0000 ,  12.0000 ,  13.0000 ,  14.0000 ,  15.0000 ,  16.0000 ,  17.0000 ,  18.0000 ,  19.0000]
+
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 1 0 
+NumberToken: index2n: index: 2 0 
+NumberToken: index2n: index: 3 0 
+NumberToken: index2n: index: 4 0 
+NumberToken: index2n: index: 5 0 
+NumberToken: index2n: index: 6 0 
+NumberToken: index2n: index: 7 0 
+NumberToken: index2n: index: 8 0 
+NumberToken: index2n: index: 9 0 
+NumberToken: index2n: index: 10 0 
+NumberToken: index2n: index: 11 0 
+NumberToken: index2n: index: 12 0 
+NumberToken: index2n: index: 13 0 
+NumberToken: index2n: index: 14 0 
+NumberToken: index2n: index: 15 0 
+NumberToken: index2n: index: 16 0 
+NumberToken: index2n: index: 17 0 
+NumberToken: index2n: index: 18 0 
+NumberToken: index2n: index: 19 0 
+Expression: store ans  [0]
+ [1]
+ [2]
+ [3]
+ [4]
+ [5]
+ [6]
+ [7]
+ [8]
+ [9]
+ [10]
+ [11]
+ [12]
+ [13]
+ [14]
+ [15]
+ [16]
+ [17]
+ [18]
+ [19]
+
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 1 0 
+NumberToken: index2n: index: 2 0 
+NumberToken: index2n: index: 3 0 
+NumberToken: index2n: index: 4 0 
+NumberToken: index2n: index: 5 0 
+NumberToken: index2n: index: 6 0 
+NumberToken: index2n: index: 7 0 
+NumberToken: index2n: index: 8 0 
+NumberToken: index2n: index: 9 0 
+NumberToken: index2n: index: 10 0 
+NumberToken: index2n: index: 11 0 
+NumberToken: index2n: index: 12 0 
+NumberToken: index2n: index: 13 0 
+NumberToken: index2n: index: 14 0 
+NumberToken: index2n: index: 15 0 
+NumberToken: index2n: index: 16 0 
+NumberToken: index2n: index: 17 0 
+NumberToken: index2n: index: 18 0 
+NumberToken: index2n: index: 19 0 
+Variable assign  [0]
+ [1]
+ [2]
+ [3]
+ [4]
+ [5]
+ [6]
+ [7]
+ [8]
+ [9]
+ [10]
+ [11]
+ [12]
+ [13]
+ [14]
+ [15]
+ [16]
+ [17]
+ [18]
+ [19]
+
+NumberToken: toString(globals)
+NumberToken: index2n: index: 0 0 
+NumberToken: index2n: index: 1 0 
+NumberToken: index2n: index: 2 0 
+NumberToken: index2n: index: 3 0 
+NumberToken: index2n: index: 4 0 
+NumberToken: index2n: index: 5 0 
+NumberToken: index2n: index: 6 0 
+NumberToken: index2n: index: 7 0 
+NumberToken: index2n: index: 8 0 
+NumberToken: index2n: index: 9 0 
+NumberToken: index2n: index: 10 0 
+NumberToken: index2n: index: 11 0 
+NumberToken: index2n: index: 12 0 
+NumberToken: index2n: index: 13 0 
+NumberToken: index2n: index: 14 0 
+NumberToken: index2n: index: 15 0 
+NumberToken: index2n: index: 16 0 
+NumberToken: index2n: index: 17 0 
+NumberToken: index2n: index: 18 0 
+NumberToken: index2n: index: 19 0 
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp finish
+  Parser: VariableToken: finish
+ Parser return: finish
+ Parser: display true finish
+Parser parseCommandList end
+Expression: evaluate finish
+Expression: child: finish
+VariableToken: eval: finish
+VariableToken: var finish not found: check functions
+FunctionToken: eval finish
+searching for finish
+searching for finish
+MFileLoader: loading >finish.m<
+MFileLoader: code: begin 
+/********************************************************
+* File: finish.m                                        * 
+* This file is executed upon each exit of JMathLib.		*  
+*********************************************************/
+
+code end
+FunctionParser: parseFunction
+FuntionParser: m-script file
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+MFileLoader: finished loading >finish.m<
+FunctionToken eval = finish
+FunctionToken result = null
+Interpreter: done
+FunctionToken result = 1
+Expression: store ans 1
+Variable assign 1
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: operand: 7
+ Parser return: 7
+ Parser: display true 7
+Parser parseCommandList end
+Expression: evaluate 7
+Expression: child: 7
+NumberToken: eval
+Expression: store ans 7
+Variable assign 7
+NumberToken: toString(globals)
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp u
+  Parser: VariableToken: u
+ Parser return: u
+ Parser: display true u
+Parser parseCommandList end
+Expression: evaluate u
+Expression: child: u
+VariableToken: eval: u
+VariableToken: var u not found: check functions
+FunctionToken: eval u
+searching for u
+searching for u
+??? u
+ERROR: FunctionToken: undefinded variable or function u
+Variable assign ERROR: FunctionToken: undefinded variable or function u
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp r
+  Parser: VariableToken: r
+ Parser return: r
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: =
+  PARSER  op+op: 0
+  Parser: <x> = <y>
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser: operand: 0
+   Parser return: 0
+  Parser parseArithmeticExpr end 
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+NumberToken: eval
+AssignmentOperatorToken: eval
+AssignmentOpTok: eval: op is VariableToken
+AssignmentOpTok: variable is null
+Variable assign 0
+AssignmentOperatorToken: displayResult
+NumberToken: toString(globals)
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp r
+  Parser: VariableToken: r
+ Parser return: r
+ Parser: display true r
+Parser parseCommandList end
+Expression: evaluate r
+Expression: child: r
+VariableToken: eval: r
+VariableToken data = 0.0000
+NumberToken: toString(globals)
+Expression: store ans 0.0000
+Variable assign 0.0000
+NumberToken: toString(globals)
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+  Parser: VariableToken: clc
+ Parser return: clc
+ Parser: display true clc
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp cls
+  Parser: VariableToken: cls
+ Parser return: cls
+ Parser: display true cls
+Parser parseCommandList end
+Expression: evaluate cls
+Expression: child: cls
+VariableToken: eval: cls
+VariableToken: var cls not found: check functions
+FunctionToken: eval cls
+searching for cls
+searching for cls
+??? cls
+ERROR: FunctionToken: undefinded variable or function cls
+Variable assign ERROR: FunctionToken: undefinded variable or function cls
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+  Parser: VariableToken: clc
+ Parser return: clc
+ Parser: display true clc
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp finish
+  Parser: VariableToken: finish
+ Parser return: finish
+ Parser: display true finish
+Parser parseCommandList end
+Expression: evaluate finish
+Expression: child: finish
+VariableToken: eval: finish
+VariableToken: var finish not found: check functions
+FunctionToken: eval finish
+searching for finish
+searching for finish
+MFileLoader: loading >finish.m<
+MFileLoader: code: begin 
+/********************************************************
+* File: finish.m                                        * 
+* This file is executed upon each exit of JMathLib.		*  
+*********************************************************/
+
+code end
+FunctionParser: parseFunction
+FuntionParser: m-script file
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+MFileLoader: finished loading >finish.m<
+FunctionToken eval = finish
+FunctionToken result = null
+Interpreter: done

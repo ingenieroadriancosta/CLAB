@@ -1,0 +1,1532 @@
+# depslib dependency file v1.0
+1386316273 source:x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab.cpp
+	"DEF.h"
+	"DEF_FUNC.h"
+	<dbt.h>
+	"LILI.h"
+	<io.h>
+	"OTHER_FUNC.cpp"
+	"IDS.h"
+	"PLOT_CLASS\\INCLUDE_PLOT_CLASS.h"
+	"CLASS_CONTROLS.cpp"
+	"SERIAL_TAD.cpp"
+	"GJVM.cpp"
+	"GVARS.cpp"
+	"OPEN_AND_SAVE_TAD.cpp"
+	"GET_BACK_UP.cpp"
+	"MAKE_BACK_UP.cpp"
+	"CURSOR_INCLUDE.cpp"
+	"PLOT_PROC.cpp"
+	"MAKE_FILE_BACK_UP.cpp"
+	"GET_FILE_BACK_UP.cpp"
+	"MATf\SaveMat.cpp"
+	"Av_Ports.cpp"
+	"AVPORTS.cpp"
+	"AVPORTSNEW.cpp"
+	"SerialProcs.cpp"
+	"CopyDLG.cpp"
+	"Copy2ClipBoard.cpp"
+	"SAVE.cpp"
+	"SaveProc.cpp"
+	"SET_SQWAVE.cpp"
+	"SetPwm.cpp"
+	"ticCNN.cpp"
+	"PRB_CONNECT.cpp"
+	"PLOT_CONNECT.cpp"
+	"CONNECT.cpp"
+	"MAINCREATE.cpp"
+	"W_PANEL_PROC.cpp"
+	"TransFunc.cpp"
+	"LoadVista.cpp"
+	"LCursors.cpp"
+	"LOADS.cpp"
+	"MP_EP.cpp"
+	"Valid_File.cpp"
+	"MAINWINDOW.cpp"
+	"ExitActivate.cpp"
+	"WHEEL_PROC.cpp"
+	"DLG_VISTA.cpp"
+	"ZOOM_IN.cpp"
+	"ZOOM_OUT.cpp"
+	"AB_Val_Proc.cpp"
+	"CALCULADORA.cpp"
+	"WPROC.cpp"
+	"ABOUT.cpp"
+	"LoadSch_New.cpp"
+	"LoadSch.cpp"
+	"LoadDrvr.cpp"
+	"LoadFirmWare.cpp"
+	"CLEAR_ALL.cpp"
+	"SET_AMPS.cpp"
+	"SetGain.cpp"
+	"SetMaxim.cpp"
+	"PRUEBAS.cpp"
+	"EWINDOWS.cpp"
+	"SetColChann.cpp"
+	"SAVE_BMP.cpp"
+	"MAINCOMMANDS.cpp"
+
+1361231551 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\def.h
+	<windows.h>
+	<commctrl.h>
+
+1350208421 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\def_func.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+
+1369467286 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\lili.h
+	<windows.h>
+	<olectl.h>
+
+1379124331 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\other_func.cpp
+	<sys/stat.h>
+
+1386314875 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ids.h
+
+1343611609 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\include_plot_class.h
+	"LINE_COLORS.cpp"
+	"PLOT_CLASS.cpp"
+	"WProcs.cpp"
+	"GRID_PROC.cpp"
+
+1343786189 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\line_colors.cpp
+
+1379127137 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\plot_class.cpp
+
+1343611456 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\wprocs.cpp
+	"WProcCon.cpp"
+
+1379130636 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\wproccon.cpp
+
+1379124405 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\grid_proc.cpp
+
+1379129851 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\class_controls.cpp
+
+1379124661 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\serial_tad.cpp
+
+1379124892 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\gjvm.cpp
+	"jni.h"
+
+1369464796 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\jni.h
+	<stdio.h>
+	<stdarg.h>
+	"jni_md.h"
+
+1369464796 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\jni_md.h
+
+1386313807 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\gvars.cpp
+
+1386308868 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\open_and_save_tad.cpp
+
+1379125042 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\get_back_up.cpp
+
+1386304091 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\make_back_up.cpp
+
+1346977900 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\cursor_include.cpp
+	"MoveCursor.cpp"
+	"W_CURSOR_THR.cpp"
+	"W_CURSOR_PROC.cpp"
+
+1379125341 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\movecursor.cpp
+
+1379125806 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\w_cursor_thr.cpp
+
+1379125913 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\w_cursor_proc.cpp
+
+1379125942 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc.cpp
+	"PLOT_PROC0.cpp"
+	"PLOT_PROC1.cpp"
+	"PLOT_PROC2.cpp"
+	"PLOT_PROC3.cpp"
+
+1379130665 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc0.cpp
+
+1379130718 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc1.cpp
+
+1379130732 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc2.cpp
+
+1379130746 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc3.cpp
+
+1386308156 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\make_file_back_up.cpp
+
+1379126320 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\get_file_back_up.cpp
+
+1379126379 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\av_ports.cpp
+
+1379126401 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\avports.cpp
+
+1379126452 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\avportsnew.cpp
+
+1379126481 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\serialprocs.cpp
+
+1353541565 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\copydlg.cpp
+
+1379126581 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\copy2clipboard.cpp
+
+1379126717 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\save.cpp
+	"SaveDLG.cpp"
+
+1351401778 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\savedlg.cpp
+
+1351401936 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\saveproc.cpp
+
+1353217426 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\set_sqwave.cpp
+
+1379126751 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setpwm.cpp
+
+1347922123 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ticcnn.cpp
+
+1379127457 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\prb_connect.cpp
+
+1379127031 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_connect.cpp
+
+1379129459 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\connect.cpp
+
+1379134399 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\maincreate.cpp
+	"IDS_CONTROL.h"
+	"WCCreate.cpp"
+	"WCCrClose.cpp"
+	"SetFonts.cpp"
+
+1354852998 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ids_control.h
+
+1350174913 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccreate.cpp
+	"WCCreC0.cpp"
+	"WCCreC1.cpp"
+
+1352206801 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccrec0.cpp
+
+1354920629 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccrec1.cpp
+
+1350175308 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccrclose.cpp
+
+1350202953 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setfonts.cpp
+
+1379129733 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\w_panel_proc.cpp
+	"PAINT_PROC.cpp"
+
+1379135073 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\paint_proc.cpp
+
+1343602242 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\transfunc.cpp
+
+1379129831 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadvista.cpp
+
+1355723332 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\lcursors.cpp
+
+1358253505 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loads.cpp
+
+1379129872 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\mp_ep.cpp
+
+1353366426 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\valid_file.cpp
+
+1379130969 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\mainwindow.cpp
+
+1353039459 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\exitactivate.cpp
+
+1353039349 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wheel_proc.cpp
+
+1351308291 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\dlg_vista.cpp
+	"VarsVista.cpp"
+	"CreateVista.cpp"
+	"PintVistaP.cpp"
+
+1351276927 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\varsvista.cpp
+
+1351319976 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\createvista.cpp
+
+1351308517 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\pintvistap.cpp
+
+1379130448 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\zoom_in.cpp
+
+1350799062 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\zoom_out.cpp
+
+1348396179 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ab_val_proc.cpp
+
+1361242969 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\calculadora.cpp
+
+1361242696 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wproc.cpp
+
+1379131833 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\about.cpp
+
+1379139072 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadsch_new.cpp
+
+1354588321 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadsch.cpp
+
+1354588400 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loaddrvr.cpp
+
+1379138730 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadfirmware.cpp
+
+1343896790 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clear_all.cpp
+
+1353418001 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\set_amps.cpp
+
+1354765316 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setgain.cpp
+
+1354754290 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setmaxim.cpp
+
+1354754325 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\pruebas.cpp
+
+1352424701 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ewindows.cpp
+
+1349212520 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setcolchann.cpp
+
+1379130491 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\save_bmp.cpp
+
+1386308500 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\maincommands.cpp
+
+1371293636 source:x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_private.rc
+	"CLAB.rc"
+
+1354764820 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab.rc
+	<windows.h>
+	"IDS.h"
+	"CLAB_PICS.rc"
+	"CLAB_TABLE.rc"
+	"CLAB_MENU.rc"
+	"CLAB_ACC.rc"
+	"CLAB_DLGS.rc"
+
+1392085897 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_pics.rc
+
+1379133012 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_table.rc
+
+1386314746 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_menu.rc
+
+1386308587 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_acc.rc
+
+1379131684 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_dlgs.rc
+
+1386315673 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\savemat.cpp
+	"SaveMatFile.cpp"
+
+1386315920 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\savematfile.cpp
+
+1386319261 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\matf\savemat.cpp
+	"SaveMatFile.cpp"
+
+1386317048 x:\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\matf\savematfile.cpp
+
+1386316273 source:e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab.cpp
+	"DEF.h"
+	"DEF_FUNC.h"
+	<dbt.h>
+	"LILI.h"
+	<io.h>
+	"OTHER_FUNC.cpp"
+	"IDS.h"
+	"PLOT_CLASS\\INCLUDE_PLOT_CLASS.h"
+	"CLASS_CONTROLS.cpp"
+	"SERIAL_TAD.cpp"
+	"GJVM.cpp"
+	"GVARS.cpp"
+	"OPEN_AND_SAVE_TAD.cpp"
+	"GET_BACK_UP.cpp"
+	"MAKE_BACK_UP.cpp"
+	"CURSOR_INCLUDE.cpp"
+	"PLOT_PROC.cpp"
+	"MAKE_FILE_BACK_UP.cpp"
+	"GET_FILE_BACK_UP.cpp"
+	"MATf\SaveMat.cpp"
+	"Av_Ports.cpp"
+	"AVPORTS.cpp"
+	"AVPORTSNEW.cpp"
+	"SerialProcs.cpp"
+	"CopyDLG.cpp"
+	"Copy2ClipBoard.cpp"
+	"SAVE.cpp"
+	"SaveProc.cpp"
+	"SET_SQWAVE.cpp"
+	"SetPwm.cpp"
+	"ticCNN.cpp"
+	"PRB_CONNECT.cpp"
+	"PLOT_CONNECT.cpp"
+	"CONNECT.cpp"
+	"MAINCREATE.cpp"
+	"W_PANEL_PROC.cpp"
+	"TransFunc.cpp"
+	"LoadVista.cpp"
+	"LCursors.cpp"
+	"LOADS.cpp"
+	"MP_EP.cpp"
+	"Valid_File.cpp"
+	"MAINWINDOW.cpp"
+	"ExitActivate.cpp"
+	"WHEEL_PROC.cpp"
+	"DLG_VISTA.cpp"
+	"ZOOM_IN.cpp"
+	"ZOOM_OUT.cpp"
+	"AB_Val_Proc.cpp"
+	"CALCULADORA.cpp"
+	"WPROC.cpp"
+	"ABOUT.cpp"
+	"LoadSch_New.cpp"
+	"LoadSch.cpp"
+	"LoadDrvr.cpp"
+	"LoadFirmWare.cpp"
+	"CLEAR_ALL.cpp"
+	"SET_AMPS.cpp"
+	"SetGain.cpp"
+	"SetMaxim.cpp"
+	"PRUEBAS.cpp"
+	"EWINDOWS.cpp"
+	"SetColChann.cpp"
+	"SAVE_BMP.cpp"
+	"MAINCOMMANDS.cpp"
+
+1361231551 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\def.h
+	<windows.h>
+	<commctrl.h>
+
+1350208421 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\def_func.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+
+1369467286 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\lili.h
+	<windows.h>
+	<olectl.h>
+
+1379124331 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\other_func.cpp
+	<sys/stat.h>
+
+1386314875 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ids.h
+
+1343611609 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\include_plot_class.h
+	"LINE_COLORS.cpp"
+	"PLOT_CLASS.cpp"
+	"WProcs.cpp"
+	"GRID_PROC.cpp"
+
+1343786189 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\line_colors.cpp
+
+1379127137 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\plot_class.cpp
+
+1343611456 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\wprocs.cpp
+	"WProcCon.cpp"
+
+1379130636 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\wproccon.cpp
+
+1379124405 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_class\\grid_proc.cpp
+
+1379129851 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\class_controls.cpp
+
+1379124661 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\serial_tad.cpp
+
+1379124892 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\gjvm.cpp
+	"jni.h"
+
+1369464796 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\jni.h
+	<stdio.h>
+	<stdarg.h>
+	"jni_md.h"
+
+1369464796 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\jni_md.h
+
+1386313807 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\gvars.cpp
+
+1386308868 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\open_and_save_tad.cpp
+
+1379125042 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\get_back_up.cpp
+
+1386304091 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\make_back_up.cpp
+
+1346977900 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\cursor_include.cpp
+	"MoveCursor.cpp"
+	"W_CURSOR_THR.cpp"
+	"W_CURSOR_PROC.cpp"
+
+1379125341 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\movecursor.cpp
+
+1379125806 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\w_cursor_thr.cpp
+
+1379125913 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\w_cursor_proc.cpp
+
+1379125942 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc.cpp
+	"PLOT_PROC0.cpp"
+	"PLOT_PROC1.cpp"
+	"PLOT_PROC2.cpp"
+	"PLOT_PROC3.cpp"
+
+1379130665 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc0.cpp
+
+1379130718 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc1.cpp
+
+1379130732 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc2.cpp
+
+1379130746 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_proc3.cpp
+
+1386308156 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\make_file_back_up.cpp
+
+1379126320 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\get_file_back_up.cpp
+
+1420184788 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\matf\savemat.cpp
+	"SaveMatFile.cpp"
+
+1420184749 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\matf\savematfile.cpp
+
+1379126379 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\av_ports.cpp
+
+1379126401 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\avports.cpp
+
+1379126452 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\avportsnew.cpp
+
+1379126481 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\serialprocs.cpp
+
+1353541565 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\copydlg.cpp
+
+1379126581 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\copy2clipboard.cpp
+
+1379126717 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\save.cpp
+	"SaveDLG.cpp"
+
+1351401778 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\savedlg.cpp
+
+1351401936 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\saveproc.cpp
+
+1353217426 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\set_sqwave.cpp
+
+1379126751 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setpwm.cpp
+
+1347922123 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ticcnn.cpp
+
+1379127457 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\prb_connect.cpp
+
+1379127031 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\plot_connect.cpp
+
+1379129459 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\connect.cpp
+
+1379134399 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\maincreate.cpp
+	"IDS_CONTROL.h"
+	"WCCreate.cpp"
+	"WCCrClose.cpp"
+	"SetFonts.cpp"
+
+1354852998 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ids_control.h
+
+1350174913 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccreate.cpp
+	"WCCreC0.cpp"
+	"WCCreC1.cpp"
+
+1352206801 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccrec0.cpp
+
+1354920629 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccrec1.cpp
+
+1350175308 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wccrclose.cpp
+
+1350202953 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setfonts.cpp
+
+1379129733 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\w_panel_proc.cpp
+	"PAINT_PROC.cpp"
+
+1379135073 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\paint_proc.cpp
+
+1343602242 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\transfunc.cpp
+
+1379129831 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadvista.cpp
+
+1355723332 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\lcursors.cpp
+
+1358253505 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loads.cpp
+
+1379129872 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\mp_ep.cpp
+
+1353366426 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\valid_file.cpp
+
+1379130969 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\mainwindow.cpp
+
+1353039459 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\exitactivate.cpp
+
+1353039349 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wheel_proc.cpp
+
+1351308291 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\dlg_vista.cpp
+	"VarsVista.cpp"
+	"CreateVista.cpp"
+	"PintVistaP.cpp"
+
+1351276927 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\varsvista.cpp
+
+1351319976 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\createvista.cpp
+
+1351308517 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\pintvistap.cpp
+
+1379130448 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\zoom_in.cpp
+
+1350799062 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\zoom_out.cpp
+
+1348396179 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ab_val_proc.cpp
+
+1361242969 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\calculadora.cpp
+
+1361242696 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\wproc.cpp
+
+1379131833 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\about.cpp
+
+1379139072 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadsch_new.cpp
+
+1354588321 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadsch.cpp
+
+1354588400 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loaddrvr.cpp
+
+1379138730 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\loadfirmware.cpp
+
+1343896790 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clear_all.cpp
+
+1353418001 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\set_amps.cpp
+
+1354765316 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setgain.cpp
+
+1354754290 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setmaxim.cpp
+
+1354754325 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\pruebas.cpp
+
+1352424701 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\ewindows.cpp
+
+1349212520 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\setcolchann.cpp
+
+1379130491 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\save_bmp.cpp
+
+1386308500 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\maincommands.cpp
+
+1371293636 source:e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_private.rc
+	"CLAB.rc"
+
+1354764820 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab.rc
+	<windows.h>
+	"IDS.h"
+	"CLAB_PICS.rc"
+	"CLAB_TABLE.rc"
+	"CLAB_MENU.rc"
+	"CLAB_ACC.rc"
+	"CLAB_DLGS.rc"
+
+1420184416 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_pics.rc
+
+1420263400 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_table.rc
+
+1386314746 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_menu.rc
+
+1386308587 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_acc.rc
+
+1379131684 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cdb\clab_dlgs.rc
+
+1386316273 source:e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab.cpp
+	"DEF.h"
+	"DEF_FUNC.h"
+	<dbt.h>
+	"LILI.h"
+	<io.h>
+	"OTHER_FUNC.cpp"
+	"IDS.h"
+	"PLOT_CLASS\\INCLUDE_PLOT_CLASS.h"
+	"CLASS_CONTROLS.cpp"
+	"SERIAL_TAD.cpp"
+	"GJVM.cpp"
+	"GVARS.cpp"
+	"OPEN_AND_SAVE_TAD.cpp"
+	"GET_BACK_UP.cpp"
+	"MAKE_BACK_UP.cpp"
+	"CURSOR_INCLUDE.cpp"
+	"PLOT_PROC.cpp"
+	"MAKE_FILE_BACK_UP.cpp"
+	"GET_FILE_BACK_UP.cpp"
+	"MATf\SaveMat.cpp"
+	"Av_Ports.cpp"
+	"AVPORTS.cpp"
+	"AVPORTSNEW.cpp"
+	"SerialProcs.cpp"
+	"CopyDLG.cpp"
+	"Copy2ClipBoard.cpp"
+	"SAVE.cpp"
+	"SaveProc.cpp"
+	"SET_SQWAVE.cpp"
+	"SetPwm.cpp"
+	"ticCNN.cpp"
+	"PRB_CONNECT.cpp"
+	"PLOT_CONNECT.cpp"
+	"CONNECT.cpp"
+	"MAINCREATE.cpp"
+	"W_PANEL_PROC.cpp"
+	"TransFunc.cpp"
+	"LoadVista.cpp"
+	"LCursors.cpp"
+	"LOADS.cpp"
+	"MP_EP.cpp"
+	"Valid_File.cpp"
+	"MAINWINDOW.cpp"
+	"ExitActivate.cpp"
+	"WHEEL_PROC.cpp"
+	"DLG_VISTA.cpp"
+	"ZOOM_IN.cpp"
+	"ZOOM_OUT.cpp"
+	"AB_Val_Proc.cpp"
+	"CALCULADORA.cpp"
+	"WPROC.cpp"
+	"ABOUT.cpp"
+	"LoadSch_New.cpp"
+	"LoadSch.cpp"
+	"LoadDrvr.cpp"
+	"LoadFirmWare.cpp"
+	"CLEAR_ALL.cpp"
+	"SET_AMPS.cpp"
+	"SetGain.cpp"
+	"SetMaxim.cpp"
+	"PRUEBAS.cpp"
+	"EWINDOWS.cpp"
+	"SetColChann.cpp"
+	"SAVE_BMP.cpp"
+	"MAINCOMMANDS.cpp"
+
+1361231551 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\def.h
+	<windows.h>
+	<commctrl.h>
+
+1350208421 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\def_func.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+
+1369467286 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\lili.h
+	<windows.h>
+	<olectl.h>
+
+1379124331 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\other_func.cpp
+	<sys/stat.h>
+
+1386314875 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\ids.h
+
+1343611609 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_class\\include_plot_class.h
+	"LINE_COLORS.cpp"
+	"PLOT_CLASS.cpp"
+	"WProcs.cpp"
+	"GRID_PROC.cpp"
+
+1343786189 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_class\\line_colors.cpp
+
+1379127137 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_class\\plot_class.cpp
+
+1343611456 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_class\\wprocs.cpp
+	"WProcCon.cpp"
+
+1379130636 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_class\\wproccon.cpp
+
+1379124405 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_class\\grid_proc.cpp
+
+1379129851 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\class_controls.cpp
+
+1379124661 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\serial_tad.cpp
+
+1379124892 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\gjvm.cpp
+	"jni.h"
+
+1369464796 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\jni.h
+	<stdio.h>
+	<stdarg.h>
+	"jni_md.h"
+
+1369464796 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\jni_md.h
+
+1386313807 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\gvars.cpp
+
+1386308868 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\open_and_save_tad.cpp
+
+1379125042 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\get_back_up.cpp
+
+1386304091 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\make_back_up.cpp
+
+1346977900 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\cursor_include.cpp
+	"MoveCursor.cpp"
+	"W_CURSOR_THR.cpp"
+	"W_CURSOR_PROC.cpp"
+
+1379125341 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\movecursor.cpp
+
+1379125806 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\w_cursor_thr.cpp
+
+1379125913 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\w_cursor_proc.cpp
+
+1379125942 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_proc.cpp
+	"PLOT_PROC0.cpp"
+	"PLOT_PROC1.cpp"
+	"PLOT_PROC2.cpp"
+	"PLOT_PROC3.cpp"
+
+1379130665 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_proc0.cpp
+
+1379130718 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_proc1.cpp
+
+1379130732 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_proc2.cpp
+
+1379130746 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_proc3.cpp
+
+1386308156 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\make_file_back_up.cpp
+
+1379126320 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\get_file_back_up.cpp
+
+1420184788 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\matf\savemat.cpp
+	"SaveMatFile.cpp"
+
+1420184749 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\matf\savematfile.cpp
+
+1379126379 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\av_ports.cpp
+
+1379126401 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\avports.cpp
+
+1379126452 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\avportsnew.cpp
+
+1379126481 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\serialprocs.cpp
+
+1353541565 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\copydlg.cpp
+
+1379126581 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\copy2clipboard.cpp
+
+1379126717 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\save.cpp
+	"SaveDLG.cpp"
+
+1351401778 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\savedlg.cpp
+
+1351401936 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\saveproc.cpp
+
+1353217426 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\set_sqwave.cpp
+
+1379126751 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\setpwm.cpp
+
+1347922123 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\ticcnn.cpp
+
+1379127457 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\prb_connect.cpp
+
+1379127031 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\plot_connect.cpp
+
+1379129459 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\connect.cpp
+
+1379134399 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\maincreate.cpp
+	"IDS_CONTROL.h"
+	"WCCreate.cpp"
+	"WCCrClose.cpp"
+	"SetFonts.cpp"
+
+1354852998 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\ids_control.h
+
+1350174913 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\wccreate.cpp
+	"WCCreC0.cpp"
+	"WCCreC1.cpp"
+
+1352206801 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\wccrec0.cpp
+
+1354920629 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\wccrec1.cpp
+
+1350175308 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\wccrclose.cpp
+
+1350202953 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\setfonts.cpp
+
+1379129733 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\w_panel_proc.cpp
+	"PAINT_PROC.cpp"
+
+1379135073 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\paint_proc.cpp
+
+1343602242 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\transfunc.cpp
+
+1379129831 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\loadvista.cpp
+
+1355723332 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\lcursors.cpp
+
+1358253505 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\loads.cpp
+
+1379129872 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\mp_ep.cpp
+
+1353366426 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\valid_file.cpp
+
+1379130969 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\mainwindow.cpp
+
+1353039459 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\exitactivate.cpp
+
+1353039349 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\wheel_proc.cpp
+
+1351308291 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\dlg_vista.cpp
+	"VarsVista.cpp"
+	"CreateVista.cpp"
+	"PintVistaP.cpp"
+
+1351276927 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\varsvista.cpp
+
+1351319976 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\createvista.cpp
+
+1351308517 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\pintvistap.cpp
+
+1379130448 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\zoom_in.cpp
+
+1350799062 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\zoom_out.cpp
+
+1348396179 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\ab_val_proc.cpp
+
+1361242969 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\calculadora.cpp
+
+1361242696 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\wproc.cpp
+
+1379131833 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\about.cpp
+
+1379139072 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\loadsch_new.cpp
+
+1354588321 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\loadsch.cpp
+
+1354588400 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\loaddrvr.cpp
+
+1379138730 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\loadfirmware.cpp
+
+1343896790 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clear_all.cpp
+
+1353418001 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\set_amps.cpp
+
+1354765316 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\setgain.cpp
+
+1354754290 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\setmaxim.cpp
+
+1354754325 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\pruebas.cpp
+
+1352424701 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\ewindows.cpp
+
+1349212520 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\setcolchann.cpp
+
+1379130491 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\save_bmp.cpp
+
+1386308500 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\maincommands.cpp
+
+1371293636 source:e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab_private.rc
+	"CLAB.rc"
+
+1354764820 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab.rc
+	<windows.h>
+	"IDS.h"
+	"CLAB_PICS.rc"
+	"CLAB_TABLE.rc"
+	"CLAB_MENU.rc"
+	"CLAB_ACC.rc"
+	"CLAB_DLGS.rc"
+
+1420184416 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab_pics.rc
+
+1420263400 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab_table.rc
+
+1386314746 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab_menu.rc
+
+1386308587 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab_acc.rc
+
+1379131684 e:\aiif\segall\conocimiento\universidad\control\tad\clab\aplicacion\clab_dlgs.rc
+
+1584898743 source:e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab.cpp
+	"DEF.h"
+	"DEF_FUNC.h"
+	<dbt.h>
+	"LILI.h"
+	<io.h>
+	"OTHER_FUNC.cpp"
+	"COMPROB_ADMIN.cpp"
+	"IDS.h"
+	"PLOT_CLASS\\INCLUDE_PLOT_CLASS.h"
+	"CLASS_CONTROLS.cpp"
+	"SERIAL_TAD.cpp"
+	"GJVM.cpp"
+	"GVARS.cpp"
+	"OPEN_AND_SAVE_TAD.cpp"
+	"GET_BACK_UP.cpp"
+	"MAKE_BACK_UP.cpp"
+	"CURSOR_INCLUDE.cpp"
+	"PLOT_PROC.cpp"
+	"MAKE_FILE_BACK_UP.cpp"
+	"GET_FILE_BACK_UP.cpp"
+	"MATf\SaveMat.cpp"
+	"Av_Ports.cpp"
+	"AVPORTS.cpp"
+	"AVPORTSNEW.cpp"
+	"SerialProcs.cpp"
+	"CopyDLG.cpp"
+	"Copy2ClipBoard.cpp"
+	"SAVE.cpp"
+	"SaveProc.cpp"
+	"SET_SQWAVE.cpp"
+	"SetPwm.cpp"
+	"ticCNN.cpp"
+	"PRB_CONNECT.cpp"
+	"PLOT_CONNECT.cpp"
+	"CONNECT.cpp"
+	"MAINCREATE.cpp"
+	"W_PANEL_PROC.cpp"
+	"TransFunc.cpp"
+	"LoadVista.cpp"
+	"LCursors.cpp"
+	"LOADS.cpp"
+	"MP_EP.cpp"
+	"Valid_File.cpp"
+	"MAINWINDOW.cpp"
+	"ExitActivate.cpp"
+	"WHEEL_PROC.cpp"
+	"DLG_VISTA.cpp"
+	"ZOOM_IN.cpp"
+	"ZOOM_OUT.cpp"
+	"AB_Val_Proc.cpp"
+	"CALCULADORA.cpp"
+	"WPROC.cpp"
+	"ABOUT.cpp"
+	"LoadSch_New.cpp"
+	"LoadSch.cpp"
+	"LoadDrvr.cpp"
+	"LoadFirmWare.cpp"
+	"senduserto.cpp"
+	"CLEAR_ALL.cpp"
+	"SET_AMPS.cpp"
+	"SetGain.cpp"
+	"SetMaxim.cpp"
+	"PRUEBAS.cpp"
+	"EWINDOWS.cpp"
+	"SetColChann.cpp"
+	"SAVE_BMP.cpp"
+	"MAINCOMMANDS.cpp"
+
+1586833561 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\def.h
+	<windows.h>
+	<commctrl.h>
+	<stdio.h>
+
+1566886743 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\def_func.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+	<sys/stat.h>
+
+1369467286 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\lili.h
+	<windows.h>
+	<olectl.h>
+
+1566886752 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\other_func.cpp
+	<sys/stat.h>
+
+1583234122 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ids.h
+
+1343611609 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\include_plot_class.h
+	"LINE_COLORS.cpp"
+	"PLOT_CLASS.cpp"
+	"WProcs.cpp"
+	"GRID_PROC.cpp"
+
+1343786189 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\line_colors.cpp
+
+1497489572 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\plot_class.cpp
+
+1343611456 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\wprocs.cpp
+	"WProcCon.cpp"
+
+1497489891 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\wproccon.cpp
+
+1379124405 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\grid_proc.cpp
+
+1379129851 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\class_controls.cpp
+
+1379124661 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\serial_tad.cpp
+
+1379124892 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\gjvm.cpp
+	"jni.h"
+
+1369464796 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\jni.h
+	<stdio.h>
+	<stdarg.h>
+	"jni_md.h"
+
+1369464796 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\jni_md.h
+
+1386313807 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\gvars.cpp
+
+1386308868 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\open_and_save_tad.cpp
+
+1568521248 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\get_back_up.cpp
+
+1568521559 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\make_back_up.cpp
+
+1346977900 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\cursor_include.cpp
+	"MoveCursor.cpp"
+	"W_CURSOR_THR.cpp"
+	"W_CURSOR_PROC.cpp"
+
+1379125341 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\movecursor.cpp
+
+1379125806 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\w_cursor_thr.cpp
+
+1379125913 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\w_cursor_proc.cpp
+
+1379125942 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc.cpp
+	"PLOT_PROC0.cpp"
+	"PLOT_PROC1.cpp"
+	"PLOT_PROC2.cpp"
+	"PLOT_PROC3.cpp"
+
+1379130665 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc0.cpp
+
+1379130718 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc1.cpp
+
+1379130732 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc2.cpp
+
+1379130746 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc3.cpp
+
+1386308156 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\make_file_back_up.cpp
+
+1379126320 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\get_file_back_up.cpp
+
+1420184788 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\matf\savemat.cpp
+	"SaveMatFile.cpp"
+
+1420184749 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\matf\savematfile.cpp
+
+1379126379 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\av_ports.cpp
+
+1379126401 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\avports.cpp
+
+1379126452 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\avportsnew.cpp
+
+1379126481 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\serialprocs.cpp
+
+1353541565 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\copydlg.cpp
+
+1379126581 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\copy2clipboard.cpp
+
+1379126717 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\save.cpp
+	"SaveDLG.cpp"
+
+1351401778 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\savedlg.cpp
+
+1351401936 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\saveproc.cpp
+
+1353217426 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\set_sqwave.cpp
+
+1379126751 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setpwm.cpp
+
+1347922123 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ticcnn.cpp
+
+1379127457 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\prb_connect.cpp
+
+1379127031 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_connect.cpp
+
+1379129459 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\connect.cpp
+
+1379134399 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\maincreate.cpp
+	"IDS_CONTROL.h"
+	"WCCreate.cpp"
+	"WCCrClose.cpp"
+	"SetFonts.cpp"
+
+1354852998 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ids_control.h
+
+1350174913 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccreate.cpp
+	"WCCreC0.cpp"
+	"WCCreC1.cpp"
+
+1352206801 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccrec0.cpp
+
+1354920629 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccrec1.cpp
+
+1350175308 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccrclose.cpp
+
+1350202953 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setfonts.cpp
+
+1379129733 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\w_panel_proc.cpp
+	"PAINT_PROC.cpp"
+
+1379135073 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\paint_proc.cpp
+
+1343602242 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\transfunc.cpp
+
+1379129831 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadvista.cpp
+
+1355723332 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\lcursors.cpp
+
+1497489586 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loads.cpp
+
+1379129872 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\mp_ep.cpp
+
+1353366426 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\valid_file.cpp
+
+1583233945 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\mainwindow.cpp
+
+1353039459 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\exitactivate.cpp
+
+1353039349 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wheel_proc.cpp
+
+1351308291 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\dlg_vista.cpp
+	"VarsVista.cpp"
+	"CreateVista.cpp"
+	"PintVistaP.cpp"
+
+1351276927 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\varsvista.cpp
+
+1351319976 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\createvista.cpp
+
+1351308517 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\pintvistap.cpp
+
+1379130448 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\zoom_in.cpp
+
+1350799062 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\zoom_out.cpp
+
+1348396179 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ab_val_proc.cpp
+
+1361242969 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\calculadora.cpp
+
+1361242696 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wproc.cpp
+
+1379131833 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\about.cpp
+
+1565588658 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadsch_new.cpp
+
+1354588321 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadsch.cpp
+
+1354588400 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loaddrvr.cpp
+
+1565588544 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadfirmware.cpp
+
+1343896790 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clear_all.cpp
+
+1353418001 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\set_amps.cpp
+
+1354765316 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setgain.cpp
+
+1354754290 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setmaxim.cpp
+
+1354754325 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\pruebas.cpp
+
+1352424701 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ewindows.cpp
+
+1349212520 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setcolchann.cpp
+
+1379130491 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\save_bmp.cpp
+
+1584898760 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\maincommands.cpp
+
+1371293636 source:e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_private.rc
+	"CLAB.rc"
+
+1354764820 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab.rc
+	<windows.h>
+	"IDS.h"
+	"CLAB_PICS.rc"
+	"CLAB_TABLE.rc"
+	"CLAB_MENU.rc"
+	"CLAB_ACC.rc"
+	"CLAB_DLGS.rc"
+
+1565586410 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_pics.rc
+
+1584909664 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_table.rc
+
+1583234274 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_menu.rc
+
+1386308587 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_acc.rc
+
+1379131684 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_dlgs.rc
+
+1386316273 source:f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab.cpp
+	"DEF.h"
+	"DEF_FUNC.h"
+	<dbt.h>
+	"LILI.h"
+	<io.h>
+	"OTHER_FUNC.cpp"
+	"IDS.h"
+	"PLOT_CLASS\\INCLUDE_PLOT_CLASS.h"
+	"CLASS_CONTROLS.cpp"
+	"SERIAL_TAD.cpp"
+	"GJVM.cpp"
+	"GVARS.cpp"
+	"OPEN_AND_SAVE_TAD.cpp"
+	"GET_BACK_UP.cpp"
+	"MAKE_BACK_UP.cpp"
+	"CURSOR_INCLUDE.cpp"
+	"PLOT_PROC.cpp"
+	"MAKE_FILE_BACK_UP.cpp"
+	"GET_FILE_BACK_UP.cpp"
+	"MATf\SaveMat.cpp"
+	"Av_Ports.cpp"
+	"AVPORTS.cpp"
+	"AVPORTSNEW.cpp"
+	"SerialProcs.cpp"
+	"CopyDLG.cpp"
+	"Copy2ClipBoard.cpp"
+	"SAVE.cpp"
+	"SaveProc.cpp"
+	"SET_SQWAVE.cpp"
+	"SetPwm.cpp"
+	"ticCNN.cpp"
+	"PRB_CONNECT.cpp"
+	"PLOT_CONNECT.cpp"
+	"CONNECT.cpp"
+	"MAINCREATE.cpp"
+	"W_PANEL_PROC.cpp"
+	"TransFunc.cpp"
+	"LoadVista.cpp"
+	"LCursors.cpp"
+	"LOADS.cpp"
+	"MP_EP.cpp"
+	"Valid_File.cpp"
+	"MAINWINDOW.cpp"
+	"ExitActivate.cpp"
+	"WHEEL_PROC.cpp"
+	"DLG_VISTA.cpp"
+	"ZOOM_IN.cpp"
+	"ZOOM_OUT.cpp"
+	"AB_Val_Proc.cpp"
+	"CALCULADORA.cpp"
+	"WPROC.cpp"
+	"ABOUT.cpp"
+	"LoadSch_New.cpp"
+	"LoadSch.cpp"
+	"LoadDrvr.cpp"
+	"LoadFirmWare.cpp"
+	"CLEAR_ALL.cpp"
+	"SET_AMPS.cpp"
+	"SetGain.cpp"
+	"SetMaxim.cpp"
+	"PRUEBAS.cpp"
+	"EWINDOWS.cpp"
+	"SetColChann.cpp"
+	"SAVE_BMP.cpp"
+	"MAINCOMMANDS.cpp"
+
+1361231551 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\def.h
+	<windows.h>
+	<commctrl.h>
+
+1350208421 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\def_func.h
+	<stdio.h>
+	<time.h>
+	<math.h>
+
+1369467286 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\lili.h
+	<windows.h>
+	<olectl.h>
+
+1379124331 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\other_func.cpp
+	<sys/stat.h>
+
+1497488557 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ids.h
+
+1343611609 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\include_plot_class.h
+	"LINE_COLORS.cpp"
+	"PLOT_CLASS.cpp"
+	"WProcs.cpp"
+	"GRID_PROC.cpp"
+
+1343786189 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\line_colors.cpp
+
+1497489572 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\plot_class.cpp
+
+1343611456 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\wprocs.cpp
+	"WProcCon.cpp"
+
+1497489891 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\wproccon.cpp
+
+1379124405 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_class\\grid_proc.cpp
+
+1379129851 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\class_controls.cpp
+
+1379124661 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\serial_tad.cpp
+
+1379124892 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\gjvm.cpp
+	"jni.h"
+
+1369464796 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\jni.h
+	<stdio.h>
+	<stdarg.h>
+	"jni_md.h"
+
+1369464796 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\jni_md.h
+
+1386313807 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\gvars.cpp
+
+1386308868 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\open_and_save_tad.cpp
+
+1379125042 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\get_back_up.cpp
+
+1386304091 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\make_back_up.cpp
+
+1346977900 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\cursor_include.cpp
+	"MoveCursor.cpp"
+	"W_CURSOR_THR.cpp"
+	"W_CURSOR_PROC.cpp"
+
+1379125341 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\movecursor.cpp
+
+1379125806 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\w_cursor_thr.cpp
+
+1379125913 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\w_cursor_proc.cpp
+
+1379125942 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc.cpp
+	"PLOT_PROC0.cpp"
+	"PLOT_PROC1.cpp"
+	"PLOT_PROC2.cpp"
+	"PLOT_PROC3.cpp"
+
+1379130665 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc0.cpp
+
+1379130718 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc1.cpp
+
+1379130732 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc2.cpp
+
+1379130746 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_proc3.cpp
+
+1386308156 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\make_file_back_up.cpp
+
+1379126320 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\get_file_back_up.cpp
+
+1420184788 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\matf\savemat.cpp
+	"SaveMatFile.cpp"
+
+1420184749 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\matf\savematfile.cpp
+
+1379126379 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\av_ports.cpp
+
+1379126401 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\avports.cpp
+
+1379126452 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\avportsnew.cpp
+
+1379126481 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\serialprocs.cpp
+
+1353541565 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\copydlg.cpp
+
+1379126581 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\copy2clipboard.cpp
+
+1379126717 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\save.cpp
+	"SaveDLG.cpp"
+
+1351401778 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\savedlg.cpp
+
+1351401936 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\saveproc.cpp
+
+1353217426 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\set_sqwave.cpp
+
+1379126751 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setpwm.cpp
+
+1347922123 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ticcnn.cpp
+
+1379127457 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\prb_connect.cpp
+
+1379127031 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\plot_connect.cpp
+
+1379129459 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\connect.cpp
+
+1379134399 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\maincreate.cpp
+	"IDS_CONTROL.h"
+	"WCCreate.cpp"
+	"WCCrClose.cpp"
+	"SetFonts.cpp"
+
+1354852998 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ids_control.h
+
+1350174913 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccreate.cpp
+	"WCCreC0.cpp"
+	"WCCreC1.cpp"
+
+1352206801 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccrec0.cpp
+
+1354920629 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccrec1.cpp
+
+1350175308 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wccrclose.cpp
+
+1350202953 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setfonts.cpp
+
+1379129733 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\w_panel_proc.cpp
+	"PAINT_PROC.cpp"
+
+1379135073 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\paint_proc.cpp
+
+1343602242 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\transfunc.cpp
+
+1379129831 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadvista.cpp
+
+1355723332 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\lcursors.cpp
+
+1497489586 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loads.cpp
+
+1379129872 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\mp_ep.cpp
+
+1353366426 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\valid_file.cpp
+
+1484100161 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\mainwindow.cpp
+
+1353039459 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\exitactivate.cpp
+
+1353039349 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wheel_proc.cpp
+
+1351308291 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\dlg_vista.cpp
+	"VarsVista.cpp"
+	"CreateVista.cpp"
+	"PintVistaP.cpp"
+
+1351276927 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\varsvista.cpp
+
+1351319976 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\createvista.cpp
+
+1351308517 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\pintvistap.cpp
+
+1379130448 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\zoom_in.cpp
+
+1350799062 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\zoom_out.cpp
+
+1348396179 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ab_val_proc.cpp
+
+1361242969 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\calculadora.cpp
+
+1361242696 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\wproc.cpp
+
+1379131833 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\about.cpp
+
+1379139072 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadsch_new.cpp
+
+1354588321 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadsch.cpp
+
+1354588400 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loaddrvr.cpp
+
+1379138730 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\loadfirmware.cpp
+
+1343896790 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clear_all.cpp
+
+1353418001 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\set_amps.cpp
+
+1354765316 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setgain.cpp
+
+1354754290 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setmaxim.cpp
+
+1354754325 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\pruebas.cpp
+
+1352424701 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\ewindows.cpp
+
+1349212520 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\setcolchann.cpp
+
+1379130491 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\save_bmp.cpp
+
+1386308500 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\maincommands.cpp
+
+1371293636 source:f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_private.rc
+	"CLAB.rc"
+
+1354764820 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab.rc
+	<windows.h>
+	"IDS.h"
+	"CLAB_PICS.rc"
+	"CLAB_TABLE.rc"
+	"CLAB_MENU.rc"
+	"CLAB_ACC.rc"
+	"CLAB_DLGS.rc"
+
+1498188709 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_pics.rc
+
+1497489552 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_table.rc
+
+1386314746 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_menu.rc
+
+1386308587 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_acc.rc
+
+1379131684 f:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\clab_dlgs.rc
+
+1567166764 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\comprob_admin.cpp
+
+1586833319 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\senduserto.cpp
+
+1586495059 e:\aiif\segall\enterprise\c++\ejercicios\tad\clab\aplicacion\httprequest.cpp
+	<wininet.h>
+

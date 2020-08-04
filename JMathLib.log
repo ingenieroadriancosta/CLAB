@@ -1,0 +1,2573 @@
+FunctionToken result = 1
+Expression: store ans 1
+Variable assign 1
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+  Parser: VariableToken: clc
+ Parser return: clc
+ Parser: display true clc
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp CLC
+  Parser: VariableToken: CLC
+ Parser return: CLC
+ Parser: display true CLC
+Parser parseCommandList end
+Expression: evaluate CLC
+Expression: child: CLC
+VariableToken: eval: CLC
+VariableToken: var CLC not found: check functions
+FunctionToken: eval CLC
+searching for CLC
+searching for CLC
+??? CLC
+ERROR: FunctionToken: undefinded variable or function CLC
+Variable assign ERROR: FunctionToken: undefinded variable or function CLC
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+  Parser: VariableToken: clc
+ Parser return: clc
+ Parser: display true clc
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: =
+  PARSER  op+op: 0
+  Parser: <x> = <y>
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser: operand: 0
+   Parser return: 0
+   Parser delimiter break ;
+  Parser parseArithmeticExpr end 
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+NumberToken: eval
+AssignmentOperatorToken: eval
+AssignmentOpTok: eval: op is VariableToken
+AssignmentOpTok: variable is null
+Variable assign 0
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: null
+  Parser: unary operator ++
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 0
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 1
+Expression: store ans 0
+Variable assign 0
+NumberToken: toString(globals)
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: =
+  PARSER  op+op: a
+  Parser: <x> = <y>
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+    Parser: VariableToken: a
+   Parser return: a
+   Parser parseSingle
+    PARSER  op+op: +
+    PARSER  op+op: 1
+    Parser: <x> + <y>
+    Parser parseSingle
+     Parser: operand: 1
+    Parser return: 1
+   Parser return: root object
+  Parser parseArithmeticExpr end 
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+Expression: evaluate root object
+Expression: child: a
+VariableToken: eval: a
+VariableToken data = 1
+Expression: child: 1
+NumberToken: eval
+DoubleNumberToken: add (n*m) + (n*m)
+AssignmentOperatorToken: eval
+AssignmentOpTok: eval: op is VariableToken
+Variable assign 2
+AssignmentOperatorToken: displayResult
+NumberToken: toString(globals)
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: =
+  PARSER  op+op: a
+  Parser: <x> = <y>
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+    Parser: VariableToken: a
+   Parser return: a
+   Parser parseSingle
+    PARSER  op+op: +
+    PARSER  op+op: 1
+    Parser: <x> + <y>
+    Parser parseSingle
+     Parser: operand: 1
+    Parser return: 1
+   Parser return: root object
+  Parser parseArithmeticExpr end 
+ Parser return: root object
+ Parser: display true root object
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+Expression: evaluate root object
+Expression: child: a
+VariableToken: eval: a
+VariableToken data = 2.0000
+Expression: child: 1
+NumberToken: eval
+DoubleNumberToken: add (n*m) + (n*m)
+AssignmentOperatorToken: eval
+AssignmentOpTok: eval: op is VariableToken
+Variable assign 3
+AssignmentOperatorToken: displayResult
+NumberToken: toString(globals)
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 3.0000
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 4
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 4
+FunctionToken result = null
+Expression: store ans 3.0000
+Variable assign 3.0000
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate root object
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 4
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 5
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 5
+FunctionToken result = null
+Expression: store ans 4
+Variable assign 4
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 5
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 6
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 6
+FunctionToken result = null
+Expression: store ans 5
+Variable assign 5
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 6
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 7
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 7
+FunctionToken result = null
+Expression: store ans 6
+Variable assign 6
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 7
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 8
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 8
+FunctionToken result = null
+Expression: store ans 7
+Variable assign 7
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 8
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 9
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 9
+FunctionToken result = null
+Expression: store ans 8
+Variable assign 8
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 9
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 10
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 10
+FunctionToken result = null
+Expression: store ans 9
+Variable assign 9
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 10
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 11
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 11
+FunctionToken result = null
+Expression: store ans 10
+Variable assign 10
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 11
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 12
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 12
+FunctionToken result = null
+Expression: store ans 11
+Variable assign 11
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 12
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 13
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 13
+FunctionToken result = null
+Expression: store ans 12
+Variable assign 12
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 13
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 14
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 14
+FunctionToken result = null
+Expression: store ans 13
+Variable assign 13
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 14
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 15
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 15
+FunctionToken result = null
+Expression: store ans 14
+Variable assign 14
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 15
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 16
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 16
+FunctionToken result = null
+Expression: store ans 15
+Variable assign 15
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 16
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 17
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 17
+FunctionToken result = null
+Expression: store ans 16
+Variable assign 16
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 17
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 18
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 18
+FunctionToken result = null
+Expression: store ans 17
+Variable assign 17
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 18
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 19
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 19
+FunctionToken result = null
+Expression: store ans 18
+Variable assign 18
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 19
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 20
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 20
+FunctionToken result = null
+Expression: store ans 19
+Variable assign 19
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 20
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 21
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 21
+FunctionToken result = null
+Expression: store ans 20
+Variable assign 20
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 21
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 22
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 22
+FunctionToken result = null
+Expression: store ans 21
+Variable assign 21
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 22
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 23
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 23
+FunctionToken result = null
+Expression: store ans 22
+Variable assign 22
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 23
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 24
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 24
+FunctionToken result = null
+Expression: store ans 23
+Variable assign 23
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 24
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 25
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 25
+FunctionToken result = null
+Expression: store ans 24
+Variable assign 24
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 25
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 26
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 26
+FunctionToken result = null
+Expression: store ans 25
+Variable assign 25
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 26
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 27
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 27
+FunctionToken result = null
+Expression: store ans 26
+Variable assign 26
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 27
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 28
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 28
+FunctionToken result = null
+Expression: store ans 27
+Variable assign 27
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 28
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 29
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 29
+FunctionToken result = null
+Expression: store ans 28
+Variable assign 28
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 29
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 30
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 30
+FunctionToken result = null
+Expression: store ans 29
+Variable assign 29
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 30
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 31
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 31
+FunctionToken result = null
+Expression: store ans 30
+Variable assign 30
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 31
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 32
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 32
+FunctionToken result = null
+Expression: store ans 31
+Variable assign 31
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 32
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 33
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 33
+FunctionToken result = null
+Expression: store ans 32
+Variable assign 32
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 33
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 34
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 34
+FunctionToken result = null
+Expression: store ans 33
+Variable assign 33
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 34
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 35
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 35
+FunctionToken result = null
+Expression: store ans 34
+Variable assign 34
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 35
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 36
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 36
+FunctionToken result = null
+Expression: store ans 35
+Variable assign 35
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 36
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 37
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 37
+FunctionToken result = null
+Expression: store ans 36
+Variable assign 36
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 37
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 38
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 38
+FunctionToken result = null
+Expression: store ans 37
+Variable assign 37
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 38
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 39
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 39
+FunctionToken result = null
+Expression: store ans 38
+Variable assign 38
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 39
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 40
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 40
+FunctionToken result = null
+Expression: store ans 39
+Variable assign 39
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 40
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 41
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 41
+FunctionToken result = null
+Expression: store ans 40
+Variable assign 40
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp a
+  LexAna: Increment/Decrement +
+  Parser: VariableToken: a
+ Parser return: a
+ Parser parseCommandList next
+ Parser parseSingle
+  PARSER  op+op: ++
+  PARSER  op+op: ;
+  Parser: unary operator ++
+ Parser return: root object
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser: function disp
+  Parser: function parse Parameter 1
+  Parser parseArithmeticExpr begin
+   Parser parseSingle
+    Parser parseSingle ppp a
+   Parser return: a
+   Parser delimiter break )
+  Parser parseArithmeticExpr end 
+  Parser: function parse Parameter current )
+ Parser return: disp(a)
+ Parser: display true disp(a)
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Expression: child: root object
+Expression: evaluate root object
+VariableToken: eval: a
+VariableToken data = 41
+DoubleNumberToken: add (n*m) + (n*m)
+Variable assign 42
+Expression: child: disp(a)
+FunctionToken: eval disp
+searching for disp
+searching for disp
+FunctionToken eval = disp
+VariableToken: eval: a
+VariableToken data = 42
+FunctionToken result = null
+Expression: store ans 41
+Variable assign 41
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp finish
+  Parser: VariableToken: finish
+ Parser return: finish
+ Parser: display true finish
+Parser parseCommandList end
+Expression: evaluate finish
+Expression: child: finish
+VariableToken: eval: finish
+VariableToken: var finish not found: check functions
+FunctionToken: eval finish
+searching for finish
+searching for finish
+MFileLoader: loading >finish.m<
+MFileLoader: code: begin 
+/********************************************************
+* File: finish.m                                        * 
+* This file is executed upon each exit of JMathLib.		*  
+*********************************************************/
+
+code end
+FunctionParser: parseFunction
+FuntionParser: m-script file
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+MFileLoader: finished loading >finish.m<
+FunctionToken eval = finish
+FunctionToken result = null
+Interpreter: done
+FunctionToken result = 1
+Expression: store ans 1
+Variable assign 1
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp finish
+  Parser: VariableToken: finish
+ Parser return: finish
+ Parser: display true finish
+Parser parseCommandList end
+Expression: evaluate finish
+Expression: child: finish
+VariableToken: eval: finish
+VariableToken: var finish not found: check functions
+FunctionToken: eval finish
+searching for finish
+searching for finish
+MFileLoader: loading >finish.m<
+MFileLoader: code: begin 
+/********************************************************
+* File: finish.m                                        * 
+* This file is executed upon each exit of JMathLib.		*  
+*********************************************************/
+
+code end
+FunctionParser: parseFunction
+FuntionParser: m-script file
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+MFileLoader: finished loading >finish.m<
+FunctionToken eval = finish
+FunctionToken result = null
+Interpreter: done
+FunctionToken result = 1
+Expression: store ans 1
+Variable assign 1
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp clc
+ Parser return: clc
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+Expression: evaluate clc
+Expression: child: clc
+VariableToken: eval: clc
+VariableToken: var clc not found: check functions
+FunctionToken: eval clc
+searching for clc
+searching for clc
+FunctionToken eval = clc
+FunctionToken result = null
+Interpreter: done
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+  Parser parseSingle ppp finish
+  Parser: VariableToken: finish
+ Parser return: finish
+ Parser: display true finish
+Parser parseCommandList end
+Expression: evaluate finish
+Expression: child: finish
+VariableToken: eval: finish
+VariableToken: var finish not found: check functions
+FunctionToken: eval finish
+searching for finish
+searching for finish
+MFileLoader: loading >finish.m<
+MFileLoader: code: begin 
+/********************************************************
+* File: finish.m                                        * 
+* This file is executed upon each exit of JMathLib.		*  
+*********************************************************/
+
+code end
+FunctionParser: parseFunction
+FuntionParser: m-script file
+Parser parseCommandList begin
+ Parser parseCommandList next
+ Parser parseSingle
+ Parser return: null
+Parser parseCommandList end
+MFileLoader: finished loading >finish.m<
+FunctionToken eval = finish
+FunctionToken result = null
+Interpreter: done

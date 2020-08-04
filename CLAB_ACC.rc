@@ -1,0 +1,101 @@
+////////////////////////////////////////////////////////////////////////////////
+aceleradores ACCELERATORS
+BEGIN
+    VK_F12   ,   ID_CONNECT, VIRTKEY
+    //VK_TAB   ,   ID_TAB
+
+
+
+    // "^O"     ,   ID_ABOUT, ALT
+
+    "^P"     ,   ID_PRUEBAS
+    "^P"     ,   ID_SET_PVAL, ALT
+
+
+    "^Q"     ,   ID_SALIR
+    "x"      ,   ID_SALIR, ALT
+    "X"      ,   ID_SALIR, ALT
+
+
+    "^B"     ,   ID_AVPORTS
+    //"^F"     ,   ID_AVPORTS
+    "^F"     ,   ID_GET_FREQ
+    VK_F1    ,   ID_GET_FREQ, VIRTKEY
+
+
+    "^S"     ,   ID_SAVE_MAT, ALT
+    "^S"     ,   ID_SAVE_DATA
+    "^G"     ,   ID_SAVE_F_REST
+    "^A"     ,   ID_OPEN_F_REST
+
+
+    "^R"     ,   ID_GRID_ON
+
+
+
+    "^H"     ,   ID_GRID_STYLE0,ALT
+    "^J"     ,   ID_GRID_STYLE1,ALT
+    "^K"     ,   ID_GRID_STYLE2,ALT
+    "^L"     ,   ID_GRID_STYLE3,ALT
+
+
+    "^H"     ,   ID_LINE_WIDTH1
+    "^J"     ,   ID_LINE_WIDTH2
+    "^K"     ,   ID_LINE_WIDTH3
+    "^L"     ,   ID_LINE_WIDTH4
+
+
+
+
+    "^I"     ,   ID_INVERTIDO
+
+    "^T"     ,   ID_ON_TOP
+
+
+
+    "^C"     ,   ID_CLEAR_ALL, ALT
+    "^R"     ,   ID_RESET_ALL, ALT
+
+
+    "^A"     ,   ID_DAT_CUR_ONO, ALT
+
+
+    "^T"     ,   ID_ACT_TRANSP, ALT
+
+
+    "^D"     ,   ID_FILES_FIRM_887, ALT
+    "^D"     ,   ID_DIV_GRAPH
+
+    "^V"     ,   ID_VISTA, ALT
+
+    "^1"     ,   ID_AMP_0
+    "^2"     ,   ID_AMP_1
+    "^3"     ,   ID_AMP_2
+    "^4"     ,   ID_AMP_3
+
+
+
+    VK_F9    ,   ID_CALL_CALCULADORA, VIRTKEY
+
+
+
+
+
+    "^9"     ,   ID_SH_IN,     ALT
+    "^0"     ,   ID_SH_OUT,    ALT
+
+    "^1"     ,   ID_SH_C0_IN,  ALT
+    "^2"     ,   ID_SH_C0_OUT, ALT
+
+    "^3"     ,   ID_SH_C1_IN, ALT
+    "^4"     ,   ID_SH_C1_OUT, ALT
+
+
+
+    "^I"     ,   ID_COPY2CLIPBOARD, ALT
+
+    "^M"     ,   ID_SET_GAIN
+    // "^M"     ,   ID_SET_MAXIM_WIN
+
+
+END

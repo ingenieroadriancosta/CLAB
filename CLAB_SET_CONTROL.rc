@@ -1,0 +1,169 @@
+#include "IDS_CTRL.h"
+Dlg_Control DIALOGEX 100, 100, 400, 400
+EXSTYLE WS_EX_LAYERED | WS_EX_TOPMOST
+STYLE  (WS_OVERLAPPEDWINDOW - (WS_MAXIMIZEBOX | WS_SIZEBOX)) //WS_CAPTION | WS_SYSMENU
+CAPTION " Configuración de controladores "
+FONT 12, "Times New Roman"
+BEGIN
+    ///// G  R  I  L  L  A.
+    
+    CONTROL " Activar\n controlador ", ID_ACT_CTRL,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | BS_MULTILINE | 
+            WS_BORDER |
+            WS_TABSTOP,
+            2, 2, 45, 18
+            
+            
+    CONTROL "", ID_SEL_CTRL,
+            "COMBOBOX",
+            WS_CHILD | WS_VISIBLE | WS_BORDER  | CBS_DROPDOWNLIST |
+            WS_TABSTOP | WS_VSCROLL,
+            2, 24, 50, 100
+    
+    
+    
+    CONTROL 0, 3,
+            "STATIC",
+            WS_CHILD | WS_VISIBLE | WS_BORDER | SS_BITMAP,
+            1, 38, 357, 202
+    
+    
+    
+            /*
+    CONTROL " Estilo de grilla ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            4, 3, 55, 70
+            
+    CONTROL "Estilo 1 ___", ID_GRID_STYLE0,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 24, 46, 10
+            
+    CONTROL "Estilo 2 .....", ID_GRID_STYLE1,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 36, 46, 10
+            
+    CONTROL "Estilo 3 ----", ID_GRID_STYLE2,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 48, 45, 10
+            
+    CONTROL "Estilo 4 __ __", ID_GRID_STYLE3,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 60, 46, 10
+    
+    ////////////////////
+    #define MPXC 6
+    // G  R  O  S  O  R     D  E     L  I  N  E  A.
+    CONTROL " Grosor de linea ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            XVisGDL, YVisGDL, 115, 25
+            
+            
+    CONTROL " 1 ", ID_LINE_WIDTH1,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+6+MPXC), YVisGDL+10, 20, 10
+            
+    CONTROL " 2 ", ID_LINE_WIDTH2,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+30+MPXC), YVisGDL+10, 20, 10
+    
+    CONTROL " 3 ", ID_LINE_WIDTH3,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+54+MPXC), YVisGDL+10, 20, 10
+    
+    CONTROL " 4 ", ID_LINE_WIDTH4,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+78+MPXC), YVisGDL+10, 20, 10
+    //*/
+    
+    
+    
+    
+    /*
+    CONTROL "Dividir gráfica", ID_DIV_GRAPH,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | 
+            // WS_BORDER |
+            WS_TABSTOP,
+            XVisGDP, 3, 46, 10
+    
+    CONTROL "Invertir rejilla", ID_INVERTIDO,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | 
+            // WS_BORDER |
+            WS_TABSTOP,
+            XVisGDP, 14, 46, 10
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //                  D  A  T  A_____C  U  R  S  O  R.   ID_DAT_CUR_ONO
+    CONTROL " Cursor ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            XVisGDP, YVisGDP, 46, 50
+            
+    CONTROL "Entrada \t1", ID_DATA_CURSOR0,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 8, 35, 10
+            
+    CONTROL "Salida \t1", ID_DATA_CURSOR1,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 18, 35, 10
+            
+    CONTROL "Entrada \t2", ID_DATA_CURSOR2,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 28, 35, 10
+            
+    CONTROL "Salida \t2", ID_DATA_CURSOR3,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 38, 35, 10
+    
+    
+    
+    
+    
+    
+    
+    
+    ////////////////////
+    // A  M  P  L  I  T  U  D     E / S.
+    #define CRRYX 6
+    CONTROL " Amplitudes de Entradas y Salidas (E/S) ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            XVisGDL, YVisGDL + 28, 115, 26
+            
+            
+    CONTROL "E 1", ID_AMP_0,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL + 4 + CRRYX), YVisGDL+10+29, 20, 10
+            
+    CONTROL "S 1", ID_AMP_1,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+28+CRRYX), YVisGDL+10+29, 20, 10
+    
+    CONTROL "E 2", ID_AMP_2,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL + 52+CRRYX), YVisGDL+10+29, 20, 10
+    
+    CONTROL "S 2", ID_AMP_3,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+76+CRRYX), YVisGDL+10+29, 20, 10
+    //*/
+    
+    
+    
+    
+END
+
+
+
+ 

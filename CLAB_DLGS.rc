@@ -1,0 +1,380 @@
+ID_FIND_PORTS DIALOG
+0, 0, 160, 160
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+// DS_MODALFRAME
+CAPTION " "
+FONT 16, " "
+BEGIN
+END
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+DialogoSaving DIALOG 100, 100, 600, 600
+STYLE DS_MODALFRAME | WS_CAPTION
+CAPTION " Guardando información "
+FONT 8, "Helv"
+BEGIN
+
+END
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+DialogoAbout DIALOG 100, 100, 400, 400
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION " Acerca de CLAB "
+FONT 12, "Times New Roman"
+
+
+BEGIN
+    CONTROL " ", 100, "EDIT", WS_VISIBLE | ES_LEFT | ES_MULTILINE |
+                              ES_WANTRETURN | WS_CHILD | WS_BORDER |
+                              ES_READONLY | WS_VSCROLL |
+                              WS_TABSTOP,// | WS_HSCROLL | WS_VSCROLL,
+                              1, 1, 84, 8
+END
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+DialogoAmp DIALOG 100, 100, 60, 45
+STYLE DS_MODALFRAME | WS_CAPTION
+CAPTION " SetVolt "
+FONT 10, "Times New Roman"
+BEGIN
+
+
+  #define HControl  14
+  CONTROL "Aceptar", IDOK, "button", BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP,      1,  1, 48, HControl
+  CONTROL "Cancelar", IDCANCEL, "button", BS_CENTER | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 1, HControl+2, 48, HControl
+  // WS_BORDER
+
+  CONTROL "5.000", 256, "EDIT", WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER, 50, 1, 70, 29
+
+
+
+END
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+DialogoGFQ DIALOG 100, 100, 400, 400
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION " F R Q "
+FONT 12, "Times New Roman"
+BEGIN
+
+END
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+#define XVisGDL  4
+#define YVisGDL 77
+
+#define XVisGDP 70
+#define YVisGDP 26
+
+
+#define TWS_BORDER 0 //WS_BORDER
+
+
+DialogoVista DIALOGEX 100, 100, 400, 400
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_LAYERED
+///STYLE  WS_CAPTION | WS_SYSMENU
+CAPTION " Configuración de gráficos (Vista) "
+FONT 12, "Times New Roman"
+BEGIN
+    ///// G  R  I  L  L  A.
+
+    CONTROL "Activar", ID_GRID_ON,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE |
+            // WS_BORDER |
+            WS_TABSTOP,
+            11, 12, 46, 10
+
+    CONTROL " Estilo de grilla ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            4, 3, 55, 70
+
+    CONTROL "Estilo 1 ___", ID_GRID_STYLE0,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 24, 46, 10
+
+    CONTROL "Estilo 2 .....", ID_GRID_STYLE1,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 36, 46, 10
+
+    CONTROL "Estilo 3 ----", ID_GRID_STYLE2,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 48, 45, 10
+
+    CONTROL "Estilo 4 __ __", ID_GRID_STYLE3,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            11, 60, 46, 10
+
+    ////////////////////
+    #define MPXC 6
+    // G  R  O  S  O  R     D  E     L  I  N  E  A.
+    CONTROL " Grosor de linea ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            XVisGDL, YVisGDL, 115, 25
+
+
+    CONTROL " 1 ", ID_LINE_WIDTH1,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+6+MPXC), YVisGDL+10, 20, 10
+
+    CONTROL " 2 ", ID_LINE_WIDTH2,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+30+MPXC), YVisGDL+10, 20, 10
+
+    CONTROL " 3 ", ID_LINE_WIDTH3,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+54+MPXC), YVisGDL+10, 20, 10
+
+    CONTROL " 4 ", ID_LINE_WIDTH4,
+            "BUTTON", BS_AUTORADIOBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+78+MPXC), YVisGDL+10, 20, 10
+    //*/
+
+
+
+
+
+    CONTROL "Dividir gráfica", ID_DIV_GRAPH,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE |
+            // WS_BORDER |
+            WS_TABSTOP,
+            XVisGDP, 3, 46, 10
+
+    CONTROL "Invertir rejilla", ID_INVERTIDO,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE |
+            // WS_BORDER |
+            WS_TABSTOP,
+            XVisGDP, 14, 46, 10
+
+
+
+
+
+
+
+
+
+    //                  D  A  T  A_____C  U  R  S  O  R.   ID_DAT_CUR_ONO
+    CONTROL " Cursor ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            XVisGDP, YVisGDP, 46, 50
+
+    CONTROL "Entrada \t1", ID_DATA_CURSOR0,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 8, 35, 10
+
+    CONTROL "Salida \t1", ID_DATA_CURSOR1,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 18, 35, 10
+
+    CONTROL "Entrada \t2", ID_DATA_CURSOR2,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 28, 35, 10
+
+    CONTROL "Salida \t2", ID_DATA_CURSOR3,
+            "BUTTON", BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP,
+            XVisGDP + 7, YVisGDP + 38, 35, 10
+
+
+
+
+
+
+
+
+    ////////////////////
+    // A  M  P  L  I  T  U  D     E / S.
+    #define CRRYX 6
+    CONTROL " Amplitudes de Entradas y Salidas (E/S) ", 0,
+            "BUTTON", BS_GROUPBOX | WS_CHILD | WS_VISIBLE | WS_GROUP,
+            XVisGDL, YVisGDL + 28, 115, 26
+
+
+    CONTROL "E 1", ID_AMP_0,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL + 4 + CRRYX), YVisGDL+10+29, 20, 10
+
+    CONTROL "S 1", ID_AMP_1,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+28+CRRYX), YVisGDL+10+29, 20, 10
+
+    CONTROL "E 2", ID_AMP_2,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL + 52+CRRYX), YVisGDL+10+29, 20, 10
+
+    CONTROL "S 2", ID_AMP_3,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | TWS_BORDER,
+            (XVisGDL+76+CRRYX), YVisGDL+10+29, 20, 10
+    //*/
+
+
+
+
+END
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+#define WACTSAVE 40
+#define HACTSAVE 12
+DialogoPreSave DIALOGEX 100, 100, 400, 400
+EXSTYLE WS_EX_TOOLWINDOW
+//STYLE DS_MODALFRAME | WS_CAPTION
+///STYLE  WS_CAPTION | WS_SYSMENU
+CAPTION " Seleccione los datos a exportar "
+FONT 12, "Times New Roman"
+BEGIN
+
+    CONTROL "Datos que se exportaran:\nTiempo\n", 10,
+            "STATIC",
+            WS_CHILD | WS_VISIBLE | WS_BORDER,
+            WACTSAVE + 6, 2, 80, 4*HACTSAVE + 6
+
+    CONTROL "Entrada\t\t1", 128,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, 2, WACTSAVE, HACTSAVE
+
+    CONTROL "Salida \t\t1", 129,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, HACTSAVE + 4, WACTSAVE, HACTSAVE
+
+    CONTROL "Entrada\t\t2", 130,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, 2*HACTSAVE + 6, WACTSAVE, HACTSAVE
+
+    CONTROL "Salida\t\t2", 131,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, 3*HACTSAVE + 8, WACTSAVE, HACTSAVE
+
+
+    CONTROL "Aceptar", 140,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            15, 4*HACTSAVE + 12, WACTSAVE, 14
+
+    CONTROL "Cancelar", 141,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            WACTSAVE + 31, 4*HACTSAVE + 12, WACTSAVE, 14
+
+
+
+END
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+/////////////////////////////////////
+DialogoPreCpy DIALOGEX 100, 100, 400, 400
+EXSTYLE WS_EX_TOOLWINDOW
+//STYLE DS_MODALFRAME | WS_CAPTION
+///STYLE  WS_CAPTION | WS_SYSMENU
+CAPTION " Seleccione los datos que desea copiar "
+FONT 12, "Times New Roman"
+BEGIN
+
+    CONTROL "Datos que se copiarán:\nTiempo\n", 10,
+            "STATIC",
+            WS_CHILD | WS_VISIBLE | WS_BORDER,
+            WACTSAVE + 6, 2, 80, 4*HACTSAVE + 6
+
+    CONTROL "Entrada\t\t1", 128,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, 2, WACTSAVE, HACTSAVE
+
+    CONTROL "Salida \t\t1", 129,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, HACTSAVE + 4, WACTSAVE, HACTSAVE
+
+    CONTROL "Entrada\t\t2", 130,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, 2*HACTSAVE + 6, WACTSAVE, HACTSAVE
+
+    CONTROL "Salida\t\t2", 131,
+            "BUTTON",
+            BS_AUTOCHECKBOX | BS_FLAT | WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            2, 3*HACTSAVE + 8, WACTSAVE, HACTSAVE
+
+
+    CONTROL "Aceptar", 140,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            15, 4*HACTSAVE + 12, WACTSAVE, 14
+
+    CONTROL "Cancelar", 141,
+            "BUTTON",
+            WS_CHILD | WS_VISIBLE | WS_TABSTOP | WS_BORDER,
+            WACTSAVE + 31, 4*HACTSAVE + 12, WACTSAVE, 14
+
+
+
+END

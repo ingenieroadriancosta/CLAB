@@ -1,0 +1,21 @@
+#include <windows.h>
+#include "IDS.h"
+#define A 10
+
+
+
+#include "CLAB_PICS.rc"
+#include "CLAB_TABLE.rc"
+#include "CLAB_MENU.rc"
+#include "CLAB_ACC.rc"
+
+#include "CLAB_DLGS.rc"
+
+
+// TAD UPC 16F877A
+
+
+
+
+
+

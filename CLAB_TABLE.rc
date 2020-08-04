@@ -1,0 +1,299 @@
+
+STRINGTABLE
+BEGIN
+
+    ID_AVPORT_END_CONSULTA, "Fin de consulta.\n------------------------------------------------"
+                            "-------------------------------"
+
+    ID_AVPORT_DIALOG_CLOSE_WIN, " Desea terminar la consulta? "
+
+    ID_ADV_DIALOG_CLOSE_ALL, " Cierre la conexión actual si desea salir del programa. "
+
+    ID_ADV_DIALOG_CLEAR_ALL, "Está a punto de borrar todos los datos de la adquisición."
+    ID_DIALOG_CLEAR_ALL, "Desea borrar todos los datos adquiridos?"
+
+    ID_WTITLE_CONSOLE, " CLAB Console "
+    ID_WCLASS,         " WC_TAD_C1 "
+    ID_PANEL_CLASS,    " WC_TAD_C1_PANEL "
+    ID_WTITLE,         " CLAB "
+
+
+
+    ID_DATACURSOR_CLASS, " DATA_CURSOR "
+    ID_DATACURSOR_INFO_CLASS, " DATA_CURSOR_INFO "
+
+
+
+    ID_LERROR0,       "Error cargando componentes.\n"
+                      "El programa finalizará."
+    ID_TMSG_ERROR,    " Error CLAB "
+
+
+    ID_SAVETITTLE,    " CLAB - Guardar como "
+    ID_OPENTITTLE,    " CLAB - Abrir como "
+
+
+
+
+    ID_CNNBUTTONI,    " Iniciar Adquisición - F12 "
+    ID_CNNBUTTONE,    " Finalizar Adquisición - F12 "
+
+
+    ID_SER_BUSYPORT,  "Otra aplicación ya está utilizando el puerto COM%i.\n"
+                      "Presione Ctrl + B para buscar los "
+                      "puertos y dispositivos\nexistentes."
+
+    ID_SER_NOPORT,    "El puerto COM%i no existe.\n"
+                      "Presione Ctrl + B para buscar los "
+                      "puertos y dispositivos\nexistentes."
+
+
+
+
+    // Sprintf's
+
+    ID_SER_DISPONIB,    "COM%i\t-\tDisponible.\n\n"
+    ID_SER_NODISPONIB,  "COM%i\t-\tNo Disponible.\n\n"
+    ID_SER_TADDISPONIB, "COM%i\t-\tDisponible(%s).\n\n"
+
+    ID_SER_DISPOTITTLE, " CLAB - Puertos existentes "
+
+
+
+
+    ID_STRING_OPEN       " Abrir archivo de restauración.       Ctrl + A "
+    ID_STRING_SAVE       " Guardar archivo de restauración.       Ctrl + G "
+
+    ID_STRING_EXPORT     " Exportar archivo CSV.       Ctrl + S "
+    //ID_STRING_EXPORT     " Exportar archivo "
+
+
+    ID_STRING_ZOOMIN     " Zoom In.       Rueda hacia abajo. "
+    ID_STRING_ZOOMOUT    " Zoom Out.       Rueda hacia arriba. "
+
+    ID_STRING_ZOOMREST   " Reestablecer zoom.     Ctrl + Alt + R"
+    ID_STRING_REDRAW     " Repintar gráfica "
+
+    ID_STRING_VISTA      " Configuración de gráficos     Ctrl + Alt + V"
+
+
+    ID_STRING_OLD_ADQ    " >>> Usted está viendo la ultima adquisición realizada <<< "
+
+    ID_STRING_COMPLEMENTS    " Archivos complementarios "
+    ID_STRING_SAVE_BMP       " Guardar gráfica como archivo BMP "
+
+    ID_STRING_NEW            " Nuevo (Borrar datos adquiridos)     Ctrl + Alt + C"
+
+    // ID_TOOLTIP_TS,      " Selecciona la frecuencia de muestreo "
+    ID_TOOLTIP_TS,      " Selecciona el tiempo de muestreo "
+    ID_TOOLTIP_TIME,    " Indica el tiempo de adquisición en segundos"
+    ID_TOOLTIP_CPORT,   " Selecciona el puerto de conexión "
+
+
+
+
+    ID_TOOLTIP_BVAL,    " Voltaje pico máximo salida 1 "
+    ID_TOOLTIP_DVAL,    " Voltaje pico máximo salida 2 "
+    ID_TOOLTIP_BVAL_MIN,    " Voltaje pico mínimo salida 1 "
+    ID_TOOLTIP_DVAL_MIN,    " Voltaje pico mínimo salida 2 "
+
+    ID_TOOLTIP_TYPE_B,    " Típo de señal en salida 1 "
+    ID_TOOLTIP_TYPE_D,    " Típo de señal en salida 2 "
+
+
+
+
+
+    ID_TOOLTIP_BVALB,   " Enviar voltaje salida 1 "
+    ID_TOOLTIP_DVALB,   " Enviar voltaje salida 2 "
+
+    ID_TOOLTIP_SQWAVE0,    " Activar señal cuadrada en salida 1 "
+    ID_TOOLTIP_SQWAVE0_NO, " Desactivar señal cuadrada en salida 1 "
+
+    ID_TOOLTIP_SQWAVE1,    " Activar señal cuadrada en salida 2 "
+    ID_TOOLTIP_SQWAVE1_NO, " Desactivar señal cuadrada en salida 2 "
+
+
+    ID_TOOLTIP_SQWAVE0_FS, " Frecuencia señal en salida 1 "
+    ID_TOOLTIP_SQWAVE1_FS, " Frecuencia señal en salida 2 "
+
+
+
+
+
+
+
+    ID_SAVE_SHARING_VIOLATION,   "El archivo está siendo utilizado por otra aplicación."
+    ID_SAVE_NO_HFILE,            "No se puede crear el archivo."
+
+    ID_SAVE_HEAD_MSG,            "Archivo generado por CLAB Versión 1.0;\n"
+                                 "Desarrollado por ADRIAN COSTA.;\n"
+                                 "Ingeniero Electrónico;\n\n"
+                                 "Contacto +57 3008053163;\n"
+                                 "email: adrianjocos@hotmail.com;\n\n"
+                                 "Dirigido y supervisado por:\n"
+                                 "Ing. Jose Luís Consuegra González.\n\n"
+                                 "Frecuencia de muestreo(Hz);;;%g\n"
+                                 "Tiempo máximo(Seg);;;%i\n\n"
+                                 "Amplitud Entrada 1;Salida 1;Entrada 2;Salida 2;\n"
+                                 "máxima;%g;%g;%g;%g\n\n"
+
+
+    ID_SAVE_ERROR_WR,            "Error al escribir el archivo."
+
+
+
+    ID_SAVE_HEAD_CHANN_INIT,     "Tiempo(Seg);"
+                                 "Entrada 1;Salida 1;"
+                                 "Entrada 2;Salida 2;\n"
+
+    ID_SAVE_HEAD_CHANN_TIME,     "Tiempo(Seg);"
+    ID_SAVE_HEAD_CHANN_0         "Entrada 1;"
+    ID_SAVE_HEAD_CHANN_1         "Salida  1;"
+    ID_SAVE_HEAD_CHANN_2         "Entrada 2;"
+    ID_SAVE_HEAD_CHANN_3         "Salida  2;"
+
+
+
+    ID_SAVE_WANT_OPEN_FILE,      "¿Desea abrir el archivo?\n%s\n"
+
+
+
+
+
+
+    ID_SHOW_HIDE_ALL_IN,         " Mostrar/Ocultar entrada y salida canal 1 "
+    ID_SHOW_HIDE_ALL_OUT,        " Mostrar/Ocultar entrada y salida canal 2 "
+
+
+
+    ID_SHOW_HIDE_IN_0,           " Mostrar/Ocultar la entrada 1 "
+    ID_SHOW_HIDE_IN_1,           " Mostrar/Ocultar la entrada 2 "
+
+    ID_SHOW_HIDE_OUT_0,          " Mostrar/Ocultar la salida 1 "
+    ID_SHOW_HIDE_OUT_1,          " Mostrar/Ocultar la salida 2 "
+
+
+
+    ID_TOOLTIP_COLOR_IN0,        " Cambiar el color de la entrada 1 "
+    ID_TOOLTIP_COLOR_IN1,        " Cambiar el color de la entrada 2 "
+
+    ID_TOOLTIP_COLOR_OUT0,       " Cambiar el color de la salida 1 "
+    ID_TOOLTIP_COLOR_OUT1,       " Cambiar el color de la salida 2 "
+
+
+
+
+
+
+
+
+    ID_STRING_FOLDER,            "C:\\Users\\%s\\Documents\\BUC.txt"
+    ID_STRING_FOLDER2,           "C:\\Users\\%s\\Documents"
+    ID_STRING_RESFILE,           "BUC.txt"
+    ID_STRING_USER_PROG,         "ADRIAN COSTA"
+
+
+
+
+
+
+
+    ID_STRING_ABOUT,             "CLAB \nVersión 1.0, Febrero 2013\n"
+                                 "Sistema de adquisición de datos\n"
+                                 "Asignatura Control I.\n\n"
+                                 "Creado por Adrián José Costa Ospino.\n"
+                                 "Ingeniero Electrónico.\n"
+                                 "Contacto: +57 3008053163.\n"
+                                 "email: adrianjocos@hotmail.com.\n"
+                                 "Universidad Popular del Cesar.\n"
+                                 "\n"
+                                 "Dirigido y supervisado por:\n"
+                                 "Ing. Jose Luís Consuegra González.\n"
+                                 "\n"
+                                 "Todo el Hardware y Software han sido\n"
+                                 "evaluados comprobando su correcto\n"
+                                 "funcionamiento."
+
+
+
+
+
+
+
+
+    ID_STRING_IS_NOT_TAD,        "El dispositivo conectado al puerto "
+                                 "COM%i "
+                                 "no es reconocible,\n\n"
+                                 "presione (Aceptar) si desea continuar "
+                                 "de lo contrario presione \n\n(Cancelar) y luego "
+                                 "presione Ctrl + B para buscar los "
+                                 "puertos y\n\n dispositivos existentes."
+
+
+
+    ID_STRING_CONN_IS_NOT_TAD,   "Desea conectarse al dispositivo?"
+
+
+
+    ID_STRING_TITLE_SV_OUT,      "Amplitud máxima de salida %i"
+    ID_STRING_TITLE_SV_IN,       "Amplitud máxima de entrada %i"
+
+
+
+
+    ID_TOOLTIP_CLOSE,            " Cerrar "
+    ID_TOOLTIP_RES_MAX,          " Minimz. tamaño "
+    ID_TOOLTIP_MIN,              " Minimizar "
+
+
+
+    ID_STRING_COPY,              "Copiar datos al portapapeles Ctrl + Alt + I"
+    ID_STR_USERNAME,             "ADRIAN COSTA"
+    ID_STR_USERNAME_EX,          "JL"
+
+
+    ID_STRING_Creado_Por,        "(CLAB)Creado Por:"
+    ID_STRING_Adrian_Costa,      "ADRIAN COSTA"
+
+
+
+
+
+    ID_STRING_TAD_DEV,           "CLAB 16F877A"
+    ID_STRING_TAD_DEV_690,       "CLAB 16F690"
+    ID_STRING_TAD_DEV_887,       "CLAB 16F887"
+    ID_STRING_TAD_DEV_886,       "CLAB 16F886"
+    ID_STRING_TAD_DEV_883,       "CLAB 16F883"
+
+
+
+
+
+
+
+
+
+
+
+    ID_STR_MClassName,    "Main.class"
+    ID_STR_MClassFcn,     "fcn.class"
+    ID_STR_MClassZip,     "Unzip.class"
+    ID_STR_ZIP_CLASS,     "classes.zip"
+    ID_STR_DJAVA,         "-Djava.class.path="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+END
